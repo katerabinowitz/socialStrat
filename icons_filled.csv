@@ -1,1981 +1,1321 @@
-"race","famType","edu1","edu2","income","icon"
-"white","man","noHS",NA,"inc020",4
-"white","man","HS",NA,"inc020",7
-"white","man","someCollege",NA,"inc020",7
-"white","man","BA",NA,"inc020",4
-"white","man","grad",NA,"inc020",1
-"black","man","noHS",NA,"inc020",2
-"black","man","HS",NA,"inc020",2
-"black","man","someCollege",NA,"inc020",2
-"black","man","BA",NA,"inc020",0
-"black","man","grad",NA,"inc020",0
-"latino","man","noHS",NA,"inc020",3
-"latino","man","HS",NA,"inc020",2
-"latino","man","someCollege",NA,"inc020",1
-"latino","man","BA",NA,"inc020",0
-"latino","man","grad",NA,"inc020",0
-"other","man","noHS",NA,"inc020",0
-"other","man","HS",NA,"inc020",1
-"other","man","someCollege",NA,"inc020",1
-"other","man","BA",NA,"inc020",0
-"other","man","grad",NA,"inc020",0
-"white","woman","noHS",NA,"inc020",6
-"white","woman","HS",NA,"inc020",12
-"white","woman","someCollege",NA,"inc020",10
-"white","woman","BA",NA,"inc020",4
-"white","woman","grad",NA,"inc020",1
-"black","woman","noHS",NA,"inc020",2
-"black","woman","HS",NA,"inc020",3
-"black","woman","someCollege",NA,"inc020",2
-"black","woman","BA",NA,"inc020",1
-"black","woman","grad",NA,"inc020",1
-"latino","woman","noHS",NA,"inc020",2
-"latino","woman","HS",NA,"inc020",1
-"latino","woman","someCollege",NA,"inc020",1
-"latino","woman","BA",NA,"inc020",0
-"latino","woman","grad",NA,"inc020",0
-"other","woman","noHS",NA,"inc020",1
-"other","woman","HS",NA,"inc020",1
-"other","woman","someCollege",NA,"inc020",1
-"other","woman","BA",NA,"inc020",1
-"other","woman","grad",NA,"inc020",0
-"white","manDep","noHS",NA,"inc020",0
-"white","manDep","HS",NA,"inc020",0
-"white","manDep","someCollege",NA,"inc020",0
-"white","manDep","BA",NA,"inc020",1
-"white","manDep","grad",NA,"inc020",0
-"black","manDep","noHS",NA,"inc020",0
-"black","manDep","HS",NA,"inc020",1
-"black","manDep","someCollege",NA,"inc020",0
-"black","manDep","BA",NA,"inc020",0
-"black","manDep","grad",NA,"inc020",0
-"latino","manDep","noHS",NA,"inc020",1
-"latino","manDep","HS",NA,"inc020",0
-"latino","manDep","someCollege",NA,"inc020",0
-"latino","manDep","BA",NA,"inc020",0
-"latino","manDep","grad",NA,"inc020",0
-"other","manDep","noHS",NA,"inc020",0
-"other","manDep","HS",NA,"inc020",0
-"other","manDep","someCollege",NA,"inc020",1
-"other","manDep","BA",NA,"inc020",0
-"other","manDep","grad",NA,"inc020",0
-"white","womanDep","noHS",NA,"inc020",1
-"white","womanDep","HS",NA,"inc020",3
-"white","womanDep","someCollege",NA,"inc020",4
-"white","womanDep","BA",NA,"inc020",1
-"white","womanDep","grad",NA,"inc020",0
-"black","womanDep","noHS",NA,"inc020",2
-"black","womanDep","HS",NA,"inc020",3
-"black","womanDep","someCollege",NA,"inc020",2
-"black","womanDep","BA",NA,"inc020",0
-"black","womanDep","grad",NA,"inc020",0
-"latino","womanDep","noHS",NA,"inc020",3
-"latino","womanDep","HS",NA,"inc020",1
-"latino","womanDep","someCollege",NA,"inc020",1
-"latino","womanDep","BA",NA,"inc020",0
-"latino","womanDep","grad",NA,"inc020",0
-"other","womanDep","noHS",NA,"inc020",0
-"other","womanDep","HS",NA,"inc020",1
-"other","womanDep","someCollege",NA,"inc020",0
-"other","womanDep","BA",NA,"inc020",0
-"other","womanDep","grad",NA,"inc020",0
-"white","couple","noHS","BA","inc020",0
-"white","couple","noHS","grad","inc020",0
-"white","couple","noHS","HS","inc020",2
-"white","couple","noHS","noHS","inc020",2
-"white","couple","noHS","someCollege","inc020",2
-"white","couple","HS","BA","inc020",2
-"white","couple","HS","grad","inc020",0
-"white","couple","HS","HS","inc020",6
-"white","couple","HS","noHS","inc020",0
-"white","couple","HS","someCollege","inc020",0
-"white","couple","someCollege","BA","inc020",0
-"white","couple","someCollege","grad","inc020",2
-"white","couple","someCollege","HS","inc020",2
-"white","couple","someCollege","noHS","inc020",0
-"white","couple","someCollege","someCollege","inc020",2
-"white","couple","BA","BA","inc020",0
-"white","couple","BA","grad","inc020",0
-"white","couple","BA","HS","inc020",2
-"white","couple","BA","noHS","inc020",0
-"white","couple","BA","someCollege","inc020",0
-"white","couple","grad","BA","inc020",2
-"white","couple","grad","grad","inc020",0
-"white","couple","grad","HS","inc020",0
-"white","couple","grad","noHS","inc020",0
-"white","couple","grad","someCollege","inc020",0
-"black","couple","noHS","BA","inc020",0
-"black","couple","noHS","grad","inc020",0
-"black","couple","noHS","HS","inc020",0
-"black","couple","noHS","noHS","inc020",2
-"black","couple","noHS","someCollege","inc020",0
-"black","couple","HS","BA","inc020",0
-"black","couple","HS","grad","inc020",0
-"black","couple","HS","HS","inc020",2
-"black","couple","HS","noHS","inc020",0
-"black","couple","HS","someCollege","inc020",0
-"black","couple","someCollege","BA","inc020",0
-"black","couple","someCollege","grad","inc020",0
-"black","couple","someCollege","HS","inc020",0
-"black","couple","someCollege","noHS","inc020",0
-"black","couple","someCollege","someCollege","inc020",2
-"black","couple","BA","BA","inc020",0
-"black","couple","BA","grad","inc020",0
-"black","couple","BA","HS","inc020",0
-"black","couple","BA","noHS","inc020",0
-"black","couple","BA","someCollege","inc020",0
-"black","couple","grad","BA","inc020",0
-"black","couple","grad","grad","inc020",0
-"black","couple","grad","HS","inc020",0
-"black","couple","grad","noHS","inc020",0
-"black","couple","grad","someCollege","inc020",0
-"latino","couple","noHS","BA","inc020",0
-"latino","couple","noHS","grad","inc020",0
-"latino","couple","noHS","HS","inc020",2
-"latino","couple","noHS","noHS","inc020",4
-"latino","couple","noHS","someCollege","inc020",0
-"latino","couple","HS","BA","inc020",0
-"latino","couple","HS","grad","inc020",0
-"latino","couple","HS","HS","inc020",2
-"latino","couple","HS","noHS","inc020",0
-"latino","couple","HS","someCollege","inc020",2
-"latino","couple","someCollege","BA","inc020",0
-"latino","couple","someCollege","grad","inc020",0
-"latino","couple","someCollege","HS","inc020",0
-"latino","couple","someCollege","noHS","inc020",2
-"latino","couple","someCollege","someCollege","inc020",0
-"latino","couple","BA","BA","inc020",0
-"latino","couple","BA","grad","inc020",0
-"latino","couple","BA","HS","inc020",0
-"latino","couple","BA","noHS","inc020",0
-"latino","couple","BA","someCollege","inc020",0
-"latino","couple","grad","BA","inc020",0
-"latino","couple","grad","grad","inc020",0
-"latino","couple","grad","HS","inc020",0
-"latino","couple","grad","noHS","inc020",0
-"latino","couple","grad","someCollege","inc020",0
-"other","couple","noHS","BA","inc020",0
-"other","couple","noHS","grad","inc020",0
-"other","couple","noHS","HS","inc020",0
-"other","couple","noHS","noHS","inc020",0
-"other","couple","noHS","someCollege","inc020",0
-"other","couple","HS","BA","inc020",0
-"other","couple","HS","grad","inc020",0
-"other","couple","HS","HS","inc020",0
-"other","couple","HS","noHS","inc020",0
-"other","couple","HS","someCollege","inc020",2
-"other","couple","someCollege","BA","inc020",0
-"other","couple","someCollege","grad","inc020",0
-"other","couple","someCollege","HS","inc020",0
-"other","couple","someCollege","noHS","inc020",0
-"other","couple","someCollege","someCollege","inc020",0
-"other","couple","BA","BA","inc020",0
-"other","couple","BA","grad","inc020",0
-"other","couple","BA","HS","inc020",0
-"other","couple","BA","noHS","inc020",0
-"other","couple","BA","someCollege","inc020",0
-"other","couple","grad","BA","inc020",0
-"other","couple","grad","grad","inc020",0
-"other","couple","grad","HS","inc020",0
-"other","couple","grad","noHS","inc020",0
-"other","couple","grad","someCollege","inc020",0
-"white","man","noHS",NA,"inc2040",1
-"white","man","HS",NA,"inc2040",6
-"white","man","someCollege",NA,"inc2040",7
-"white","man","BA",NA,"inc2040",5
-"white","man","grad",NA,"inc2040",2
-"black","man","noHS",NA,"inc2040",0
-"black","man","HS",NA,"inc2040",2
-"black","man","someCollege",NA,"inc2040",1
-"black","man","BA",NA,"inc2040",1
-"black","man","grad",NA,"inc2040",0
-"latino","man","noHS",NA,"inc2040",2
-"latino","man","HS",NA,"inc2040",2
-"latino","man","someCollege",NA,"inc2040",1
-"latino","man","BA",NA,"inc2040",0
-"latino","man","grad",NA,"inc2040",0
-"other","man","noHS",NA,"inc2040",0
-"other","man","HS",NA,"inc2040",0
-"other","man","someCollege",NA,"inc2040",1
-"other","man","BA",NA,"inc2040",0
-"other","man","grad",NA,"inc2040",0
-"white","woman","noHS",NA,"inc2040",2
-"white","woman","HS",NA,"inc2040",8
-"white","woman","someCollege",NA,"inc2040",6
-"white","woman","BA",NA,"inc2040",7
-"white","woman","grad",NA,"inc2040",2
-"black","woman","noHS",NA,"inc2040",1
-"black","woman","HS",NA,"inc2040",1
-"black","woman","someCollege",NA,"inc2040",2
-"black","woman","BA",NA,"inc2040",0
-"black","woman","grad",NA,"inc2040",0
-"latino","woman","noHS",NA,"inc2040",0
-"latino","woman","HS",NA,"inc2040",1
-"latino","woman","someCollege",NA,"inc2040",1
-"latino","woman","BA",NA,"inc2040",0
-"latino","woman","grad",NA,"inc2040",0
-"other","woman","noHS",NA,"inc2040",0
-"other","woman","HS",NA,"inc2040",0
-"other","woman","someCollege",NA,"inc2040",1
-"other","woman","BA",NA,"inc2040",0
-"other","woman","grad",NA,"inc2040",0
-"white","manDep","noHS",NA,"inc2040",0
-"white","manDep","HS",NA,"inc2040",1
-"white","manDep","someCollege",NA,"inc2040",2
-"white","manDep","BA",NA,"inc2040",1
-"white","manDep","grad",NA,"inc2040",0
-"black","manDep","noHS",NA,"inc2040",1
-"black","manDep","HS",NA,"inc2040",0
-"black","manDep","someCollege",NA,"inc2040",0
-"black","manDep","BA",NA,"inc2040",0
-"black","manDep","grad",NA,"inc2040",0
-"latino","manDep","noHS",NA,"inc2040",0
-"latino","manDep","HS",NA,"inc2040",1
-"latino","manDep","someCollege",NA,"inc2040",0
-"latino","manDep","BA",NA,"inc2040",0
-"latino","manDep","grad",NA,"inc2040",0
-"other","manDep","noHS",NA,"inc2040",0
-"other","manDep","HS",NA,"inc2040",1
-"other","manDep","someCollege",NA,"inc2040",0
-"other","manDep","BA",NA,"inc2040",0
-"other","manDep","grad",NA,"inc2040",0
-"white","womanDep","noHS",NA,"inc2040",1
-"white","womanDep","HS",NA,"inc2040",3
-"white","womanDep","someCollege",NA,"inc2040",3
-"white","womanDep","BA",NA,"inc2040",1
-"white","womanDep","grad",NA,"inc2040",1
-"black","womanDep","noHS",NA,"inc2040",0
-"black","womanDep","HS",NA,"inc2040",2
-"black","womanDep","someCollege",NA,"inc2040",3
-"black","womanDep","BA",NA,"inc2040",1
-"black","womanDep","grad",NA,"inc2040",0
-"latino","womanDep","noHS",NA,"inc2040",1
-"latino","womanDep","HS",NA,"inc2040",2
-"latino","womanDep","someCollege",NA,"inc2040",1
-"latino","womanDep","BA",NA,"inc2040",0
-"latino","womanDep","grad",NA,"inc2040",0
-"other","womanDep","noHS",NA,"inc2040",0
-"other","womanDep","HS",NA,"inc2040",0
-"other","womanDep","someCollege",NA,"inc2040",1
-"other","womanDep","BA",NA,"inc2040",0
-"other","womanDep","grad",NA,"inc2040",0
-"white","couple","noHS","BA","inc2040",0
-"white","couple","noHS","grad","inc2040",0
-"white","couple","noHS","HS","inc2040",6
-"white","couple","noHS","noHS","inc2040",4
-"white","couple","noHS","someCollege","inc2040",2
-"white","couple","HS","BA","inc2040",2
-"white","couple","HS","grad","inc2040",0
-"white","couple","HS","HS","inc2040",16
-"white","couple","HS","noHS","inc2040",2
-"white","couple","HS","someCollege","inc2040",8
-"white","couple","someCollege","BA","inc2040",0
-"white","couple","someCollege","grad","inc2040",0
-"white","couple","someCollege","HS","inc2040",8
-"white","couple","someCollege","noHS","inc2040",2
-"white","couple","someCollege","someCollege","inc2040",6
-"white","couple","BA","BA","inc2040",4
-"white","couple","BA","grad","inc2040",2
-"white","couple","BA","HS","inc2040",0
-"white","couple","BA","noHS","inc2040",0
-"white","couple","BA","someCollege","inc2040",2
-"white","couple","grad","BA","inc2040",0
-"white","couple","grad","grad","inc2040",2
-"white","couple","grad","HS","inc2040",0
-"white","couple","grad","noHS","inc2040",0
-"white","couple","grad","someCollege","inc2040",0
-"black","couple","noHS","BA","inc2040",0
-"black","couple","noHS","grad","inc2040",0
-"black","couple","noHS","HS","inc2040",0
-"black","couple","noHS","noHS","inc2040",2
-"black","couple","noHS","someCollege","inc2040",0
-"black","couple","HS","BA","inc2040",0
-"black","couple","HS","grad","inc2040",0
-"black","couple","HS","HS","inc2040",4
-"black","couple","HS","noHS","inc2040",0
-"black","couple","HS","someCollege","inc2040",2
-"black","couple","someCollege","BA","inc2040",0
-"black","couple","someCollege","grad","inc2040",0
-"black","couple","someCollege","HS","inc2040",0
-"black","couple","someCollege","noHS","inc2040",0
-"black","couple","someCollege","someCollege","inc2040",2
-"black","couple","BA","BA","inc2040",0
-"black","couple","BA","grad","inc2040",0
-"black","couple","BA","HS","inc2040",0
-"black","couple","BA","noHS","inc2040",0
-"black","couple","BA","someCollege","inc2040",0
-"black","couple","grad","BA","inc2040",0
-"black","couple","grad","grad","inc2040",0
-"black","couple","grad","HS","inc2040",0
-"black","couple","grad","noHS","inc2040",0
-"black","couple","grad","someCollege","inc2040",0
-"latino","couple","noHS","BA","inc2040",0
-"latino","couple","noHS","grad","inc2040",0
-"latino","couple","noHS","HS","inc2040",4
-"latino","couple","noHS","noHS","inc2040",6
-"latino","couple","noHS","someCollege","inc2040",2
-"latino","couple","HS","BA","inc2040",0
-"latino","couple","HS","grad","inc2040",0
-"latino","couple","HS","HS","inc2040",2
-"latino","couple","HS","noHS","inc2040",4
-"latino","couple","HS","someCollege","inc2040",0
-"latino","couple","someCollege","BA","inc2040",0
-"latino","couple","someCollege","grad","inc2040",0
-"latino","couple","someCollege","HS","inc2040",0
-"latino","couple","someCollege","noHS","inc2040",0
-"latino","couple","someCollege","someCollege","inc2040",2
-"latino","couple","BA","BA","inc2040",0
-"latino","couple","BA","grad","inc2040",0
-"latino","couple","BA","HS","inc2040",2
-"latino","couple","BA","noHS","inc2040",0
-"latino","couple","BA","someCollege","inc2040",0
-"latino","couple","grad","BA","inc2040",0
-"latino","couple","grad","grad","inc2040",0
-"latino","couple","grad","HS","inc2040",0
-"latino","couple","grad","noHS","inc2040",0
-"latino","couple","grad","someCollege","inc2040",0
-"other","couple","noHS","BA","inc2040",0
-"other","couple","noHS","grad","inc2040",0
-"other","couple","noHS","HS","inc2040",0
-"other","couple","noHS","noHS","inc2040",2
-"other","couple","noHS","someCollege","inc2040",0
-"other","couple","HS","BA","inc2040",0
-"other","couple","HS","grad","inc2040",0
-"other","couple","HS","HS","inc2040",0
-"other","couple","HS","noHS","inc2040",0
-"other","couple","HS","someCollege","inc2040",0
-"other","couple","someCollege","BA","inc2040",2
-"other","couple","someCollege","grad","inc2040",0
-"other","couple","someCollege","HS","inc2040",0
-"other","couple","someCollege","noHS","inc2040",0
-"other","couple","someCollege","someCollege","inc2040",0
-"other","couple","BA","BA","inc2040",0
-"other","couple","BA","grad","inc2040",0
-"other","couple","BA","HS","inc2040",0
-"other","couple","BA","noHS","inc2040",0
-"other","couple","BA","someCollege","inc2040",0
-"other","couple","grad","BA","inc2040",0
-"other","couple","grad","grad","inc2040",0
-"other","couple","grad","HS","inc2040",2
-"other","couple","grad","noHS","inc2040",0
-"other","couple","grad","someCollege","inc2040",0
-"white","man","noHS",NA,"inc4060",0
-"white","man","HS",NA,"inc4060",4
-"white","man","someCollege",NA,"inc4060",4
-"white","man","BA",NA,"inc4060",5
-"white","man","grad",NA,"inc4060",1
-"black","man","noHS",NA,"inc4060",0
-"black","man","HS",NA,"inc4060",1
-"black","man","someCollege",NA,"inc4060",1
-"black","man","BA",NA,"inc4060",0
-"black","man","grad",NA,"inc4060",0
-"latino","man","noHS",NA,"inc4060",0
-"latino","man","HS",NA,"inc4060",0
-"latino","man","someCollege",NA,"inc4060",1
-"latino","man","BA",NA,"inc4060",0
-"latino","man","grad",NA,"inc4060",0
-"other","man","noHS",NA,"inc4060",1
-"other","man","HS",NA,"inc4060",0
-"other","man","someCollege",NA,"inc4060",0
-"other","man","BA",NA,"inc4060",0
-"other","man","grad",NA,"inc4060",1
-"white","woman","noHS",NA,"inc4060",0
-"white","woman","HS",NA,"inc4060",1
-"white","woman","someCollege",NA,"inc4060",5
-"white","woman","BA",NA,"inc4060",3
-"white","woman","grad",NA,"inc4060",2
-"black","woman","noHS",NA,"inc4060",0
-"black","woman","HS",NA,"inc4060",1
-"black","woman","someCollege",NA,"inc4060",1
-"black","woman","BA",NA,"inc4060",0
-"black","woman","grad",NA,"inc4060",0
-"latino","woman","noHS",NA,"inc4060",0
-"latino","woman","HS",NA,"inc4060",0
-"latino","woman","someCollege",NA,"inc4060",0
-"latino","woman","BA",NA,"inc4060",1
-"latino","woman","grad",NA,"inc4060",1
-"other","woman","noHS",NA,"inc4060",0
-"other","woman","HS",NA,"inc4060",0
-"other","woman","someCollege",NA,"inc4060",0
-"other","woman","BA",NA,"inc4060",1
-"other","woman","grad",NA,"inc4060",0
-"white","manDep","noHS",NA,"inc4060",1
-"white","manDep","HS",NA,"inc4060",2
-"white","manDep","someCollege",NA,"inc4060",1
-"white","manDep","BA",NA,"inc4060",0
-"white","manDep","grad",NA,"inc4060",0
-"black","manDep","noHS",NA,"inc4060",0
-"black","manDep","HS",NA,"inc4060",0
-"black","manDep","someCollege",NA,"inc4060",0
-"black","manDep","BA",NA,"inc4060",0
-"black","manDep","grad",NA,"inc4060",0
-"latino","manDep","noHS",NA,"inc4060",0
-"latino","manDep","HS",NA,"inc4060",0
-"latino","manDep","someCollege",NA,"inc4060",1
-"latino","manDep","BA",NA,"inc4060",0
-"latino","manDep","grad",NA,"inc4060",0
-"other","manDep","noHS",NA,"inc4060",0
-"other","manDep","HS",NA,"inc4060",0
-"other","manDep","someCollege",NA,"inc4060",0
-"other","manDep","BA",NA,"inc4060",0
-"other","manDep","grad",NA,"inc4060",0
-"white","womanDep","noHS",NA,"inc4060",1
-"white","womanDep","HS",NA,"inc4060",2
-"white","womanDep","someCollege",NA,"inc4060",1
-"white","womanDep","BA",NA,"inc4060",2
-"white","womanDep","grad",NA,"inc4060",1
-"black","womanDep","noHS",NA,"inc4060",0
-"black","womanDep","HS",NA,"inc4060",1
-"black","womanDep","someCollege",NA,"inc4060",2
-"black","womanDep","BA",NA,"inc4060",0
-"black","womanDep","grad",NA,"inc4060",0
-"latino","womanDep","noHS",NA,"inc4060",0
-"latino","womanDep","HS",NA,"inc4060",1
-"latino","womanDep","someCollege",NA,"inc4060",1
-"latino","womanDep","BA",NA,"inc4060",0
-"latino","womanDep","grad",NA,"inc4060",0
-"other","womanDep","noHS",NA,"inc4060",0
-"other","womanDep","HS",NA,"inc4060",0
-"other","womanDep","someCollege",NA,"inc4060",0
-"other","womanDep","BA",NA,"inc4060",0
-"other","womanDep","grad",NA,"inc4060",0
-"white","couple","noHS","BA","inc4060",0
-"white","couple","noHS","grad","inc4060",0
-"white","couple","noHS","HS","inc4060",2
-"white","couple","noHS","noHS","inc4060",2
-"white","couple","noHS","someCollege","inc4060",0
-"white","couple","HS","BA","inc4060",4
-"white","couple","HS","grad","inc4060",0
-"white","couple","HS","HS","inc4060",16
-"white","couple","HS","noHS","inc4060",2
-"white","couple","HS","someCollege","inc4060",10
-"white","couple","someCollege","BA","inc4060",0
-"white","couple","someCollege","grad","inc4060",2
-"white","couple","someCollege","HS","inc4060",8
-"white","couple","someCollege","noHS","inc4060",2
-"white","couple","someCollege","someCollege","inc4060",8
-"white","couple","BA","BA","inc4060",6
-"white","couple","BA","grad","inc4060",0
-"white","couple","BA","HS","inc4060",0
-"white","couple","BA","noHS","inc4060",0
-"white","couple","BA","someCollege","inc4060",4
-"white","couple","grad","BA","inc4060",0
-"white","couple","grad","grad","inc4060",2
-"white","couple","grad","HS","inc4060",2
-"white","couple","grad","noHS","inc4060",0
-"white","couple","grad","someCollege","inc4060",2
-"black","couple","noHS","BA","inc4060",0
-"black","couple","noHS","grad","inc4060",0
-"black","couple","noHS","HS","inc4060",0
-"black","couple","noHS","noHS","inc4060",0
-"black","couple","noHS","someCollege","inc4060",2
-"black","couple","HS","BA","inc4060",0
-"black","couple","HS","grad","inc4060",0
-"black","couple","HS","HS","inc4060",2
-"black","couple","HS","noHS","inc4060",0
-"black","couple","HS","someCollege","inc4060",0
-"black","couple","someCollege","BA","inc4060",2
-"black","couple","someCollege","grad","inc4060",0
-"black","couple","someCollege","HS","inc4060",0
-"black","couple","someCollege","noHS","inc4060",0
-"black","couple","someCollege","someCollege","inc4060",2
-"black","couple","BA","BA","inc4060",0
-"black","couple","BA","grad","inc4060",0
-"black","couple","BA","HS","inc4060",2
-"black","couple","BA","noHS","inc4060",0
-"black","couple","BA","someCollege","inc4060",0
-"black","couple","grad","BA","inc4060",0
-"black","couple","grad","grad","inc4060",0
-"black","couple","grad","HS","inc4060",0
-"black","couple","grad","noHS","inc4060",0
-"black","couple","grad","someCollege","inc4060",0
-"latino","couple","noHS","BA","inc4060",0
-"latino","couple","noHS","grad","inc4060",0
-"latino","couple","noHS","HS","inc4060",2
-"latino","couple","noHS","noHS","inc4060",4
-"latino","couple","noHS","someCollege","inc4060",0
-"latino","couple","HS","BA","inc4060",0
-"latino","couple","HS","grad","inc4060",0
-"latino","couple","HS","HS","inc4060",2
-"latino","couple","HS","noHS","inc4060",2
-"latino","couple","HS","someCollege","inc4060",2
-"latino","couple","someCollege","BA","inc4060",0
-"latino","couple","someCollege","grad","inc4060",0
-"latino","couple","someCollege","HS","inc4060",2
-"latino","couple","someCollege","noHS","inc4060",0
-"latino","couple","someCollege","someCollege","inc4060",2
-"latino","couple","BA","BA","inc4060",0
-"latino","couple","BA","grad","inc4060",0
-"latino","couple","BA","HS","inc4060",0
-"latino","couple","BA","noHS","inc4060",0
-"latino","couple","BA","someCollege","inc4060",0
-"latino","couple","grad","BA","inc4060",2
-"latino","couple","grad","grad","inc4060",0
-"latino","couple","grad","HS","inc4060",0
-"latino","couple","grad","noHS","inc4060",0
-"latino","couple","grad","someCollege","inc4060",0
-"other","couple","noHS","BA","inc4060",0
-"other","couple","noHS","grad","inc4060",0
-"other","couple","noHS","HS","inc4060",0
-"other","couple","noHS","noHS","inc4060",2
-"other","couple","noHS","someCollege","inc4060",0
-"other","couple","HS","BA","inc4060",0
-"other","couple","HS","grad","inc4060",0
-"other","couple","HS","HS","inc4060",2
-"other","couple","HS","noHS","inc4060",0
-"other","couple","HS","someCollege","inc4060",0
-"other","couple","someCollege","BA","inc4060",0
-"other","couple","someCollege","grad","inc4060",0
-"other","couple","someCollege","HS","inc4060",0
-"other","couple","someCollege","noHS","inc4060",0
-"other","couple","someCollege","someCollege","inc4060",0
-"other","couple","BA","BA","inc4060",2
-"other","couple","BA","grad","inc4060",0
-"other","couple","BA","HS","inc4060",0
-"other","couple","BA","noHS","inc4060",0
-"other","couple","BA","someCollege","inc4060",0
-"other","couple","grad","BA","inc4060",0
-"other","couple","grad","grad","inc4060",0
-"other","couple","grad","HS","inc4060",0
-"other","couple","grad","noHS","inc4060",0
-"other","couple","grad","someCollege","inc4060",0
-"white","man","noHS",NA,"inc6080",0
-"white","man","HS",NA,"inc6080",2
-"white","man","someCollege",NA,"inc6080",3
-"white","man","BA",NA,"inc6080",2
-"white","man","grad",NA,"inc6080",1
-"black","man","noHS",NA,"inc6080",0
-"black","man","HS",NA,"inc6080",0
-"black","man","someCollege",NA,"inc6080",0
-"black","man","BA",NA,"inc6080",0
-"black","man","grad",NA,"inc6080",1
-"latino","man","noHS",NA,"inc6080",0
-"latino","man","HS",NA,"inc6080",0
-"latino","man","someCollege",NA,"inc6080",0
-"latino","man","BA",NA,"inc6080",0
-"latino","man","grad",NA,"inc6080",0
-"other","man","noHS",NA,"inc6080",0
-"other","man","HS",NA,"inc6080",0
-"other","man","someCollege",NA,"inc6080",0
-"other","man","BA",NA,"inc6080",1
-"other","man","grad",NA,"inc6080",0
-"white","woman","noHS",NA,"inc6080",0
-"white","woman","HS",NA,"inc6080",1
-"white","woman","someCollege",NA,"inc6080",2
-"white","woman","BA",NA,"inc6080",3
-"white","woman","grad",NA,"inc6080",1
-"black","woman","noHS",NA,"inc6080",0
-"black","woman","HS",NA,"inc6080",0
-"black","woman","someCollege",NA,"inc6080",0
-"black","woman","BA",NA,"inc6080",0
-"black","woman","grad",NA,"inc6080",1
-"latino","woman","noHS",NA,"inc6080",0
-"latino","woman","HS",NA,"inc6080",0
-"latino","woman","someCollege",NA,"inc6080",0
-"latino","woman","BA",NA,"inc6080",0
-"latino","woman","grad",NA,"inc6080",0
-"other","woman","noHS",NA,"inc6080",0
-"other","woman","HS",NA,"inc6080",0
-"other","woman","someCollege",NA,"inc6080",0
-"other","woman","BA",NA,"inc6080",0
-"other","woman","grad",NA,"inc6080",0
-"white","manDep","noHS",NA,"inc6080",0
-"white","manDep","HS",NA,"inc6080",1
-"white","manDep","someCollege",NA,"inc6080",1
-"white","manDep","BA",NA,"inc6080",0
-"white","manDep","grad",NA,"inc6080",0
-"black","manDep","noHS",NA,"inc6080",0
-"black","manDep","HS",NA,"inc6080",0
-"black","manDep","someCollege",NA,"inc6080",1
-"black","manDep","BA",NA,"inc6080",0
-"black","manDep","grad",NA,"inc6080",0
-"latino","manDep","noHS",NA,"inc6080",0
-"latino","manDep","HS",NA,"inc6080",0
-"latino","manDep","someCollege",NA,"inc6080",0
-"latino","manDep","BA",NA,"inc6080",0
-"latino","manDep","grad",NA,"inc6080",0
-"other","manDep","noHS",NA,"inc6080",0
-"other","manDep","HS",NA,"inc6080",0
-"other","manDep","someCollege",NA,"inc6080",0
-"other","manDep","BA",NA,"inc6080",0
-"other","manDep","grad",NA,"inc6080",0
-"white","womanDep","noHS",NA,"inc6080",1
-"white","womanDep","HS",NA,"inc6080",1
-"white","womanDep","someCollege",NA,"inc6080",2
-"white","womanDep","BA",NA,"inc6080",0
-"white","womanDep","grad",NA,"inc6080",0
-"black","womanDep","noHS",NA,"inc6080",0
-"black","womanDep","HS",NA,"inc6080",0
-"black","womanDep","someCollege",NA,"inc6080",0
-"black","womanDep","BA",NA,"inc6080",0
-"black","womanDep","grad",NA,"inc6080",1
-"latino","womanDep","noHS",NA,"inc6080",0
-"latino","womanDep","HS",NA,"inc6080",0
-"latino","womanDep","someCollege",NA,"inc6080",0
-"latino","womanDep","BA",NA,"inc6080",1
-"latino","womanDep","grad",NA,"inc6080",0
-"other","womanDep","noHS",NA,"inc6080",0
-"other","womanDep","HS",NA,"inc6080",1
-"other","womanDep","someCollege",NA,"inc6080",0
-"other","womanDep","BA",NA,"inc6080",0
-"other","womanDep","grad",NA,"inc6080",0
-"white","couple","noHS","BA","inc6080",2
-"white","couple","noHS","grad","inc6080",0
-"white","couple","noHS","HS","inc6080",0
-"white","couple","noHS","noHS","inc6080",2
-"white","couple","noHS","someCollege","inc6080",0
-"white","couple","HS","BA","inc6080",0
-"white","couple","HS","grad","inc6080",2
-"white","couple","HS","HS","inc6080",12
-"white","couple","HS","noHS","inc6080",0
-"white","couple","HS","someCollege","inc6080",10
-"white","couple","someCollege","BA","inc6080",4
-"white","couple","someCollege","grad","inc6080",2
-"white","couple","someCollege","HS","inc6080",6
-"white","couple","someCollege","noHS","inc6080",0
-"white","couple","someCollege","someCollege","inc6080",10
-"white","couple","BA","BA","inc6080",8
-"white","couple","BA","grad","inc6080",0
-"white","couple","BA","HS","inc6080",2
-"white","couple","BA","noHS","inc6080",0
-"white","couple","BA","someCollege","inc6080",4
-"white","couple","grad","BA","inc6080",4
-"white","couple","grad","grad","inc6080",2
-"white","couple","grad","HS","inc6080",0
-"white","couple","grad","noHS","inc6080",0
-"white","couple","grad","someCollege","inc6080",2
-"black","couple","noHS","BA","inc6080",0
-"black","couple","noHS","grad","inc6080",0
-"black","couple","noHS","HS","inc6080",0
-"black","couple","noHS","noHS","inc6080",0
-"black","couple","noHS","someCollege","inc6080",0
-"black","couple","HS","BA","inc6080",0
-"black","couple","HS","grad","inc6080",0
-"black","couple","HS","HS","inc6080",4
-"black","couple","HS","noHS","inc6080",2
-"black","couple","HS","someCollege","inc6080",0
-"black","couple","someCollege","BA","inc6080",0
-"black","couple","someCollege","grad","inc6080",0
-"black","couple","someCollege","HS","inc6080",0
-"black","couple","someCollege","noHS","inc6080",0
-"black","couple","someCollege","someCollege","inc6080",2
-"black","couple","BA","BA","inc6080",0
-"black","couple","BA","grad","inc6080",0
-"black","couple","BA","HS","inc6080",0
-"black","couple","BA","noHS","inc6080",0
-"black","couple","BA","someCollege","inc6080",0
-"black","couple","grad","BA","inc6080",0
-"black","couple","grad","grad","inc6080",0
-"black","couple","grad","HS","inc6080",0
-"black","couple","grad","noHS","inc6080",0
-"black","couple","grad","someCollege","inc6080",0
-"latino","couple","noHS","BA","inc6080",0
-"latino","couple","noHS","grad","inc6080",0
-"latino","couple","noHS","HS","inc6080",0
-"latino","couple","noHS","noHS","inc6080",2
-"latino","couple","noHS","someCollege","inc6080",2
-"latino","couple","HS","BA","inc6080",0
-"latino","couple","HS","grad","inc6080",0
-"latino","couple","HS","HS","inc6080",4
-"latino","couple","HS","noHS","inc6080",2
-"latino","couple","HS","someCollege","inc6080",0
-"latino","couple","someCollege","BA","inc6080",0
-"latino","couple","someCollege","grad","inc6080",0
-"latino","couple","someCollege","HS","inc6080",2
-"latino","couple","someCollege","noHS","inc6080",0
-"latino","couple","someCollege","someCollege","inc6080",2
-"latino","couple","BA","BA","inc6080",2
-"latino","couple","BA","grad","inc6080",0
-"latino","couple","BA","HS","inc6080",0
-"latino","couple","BA","noHS","inc6080",0
-"latino","couple","BA","someCollege","inc6080",0
-"latino","couple","grad","BA","inc6080",0
-"latino","couple","grad","grad","inc6080",0
-"latino","couple","grad","HS","inc6080",0
-"latino","couple","grad","noHS","inc6080",0
-"latino","couple","grad","someCollege","inc6080",0
-"other","couple","noHS","BA","inc6080",0
-"other","couple","noHS","grad","inc6080",0
-"other","couple","noHS","HS","inc6080",0
-"other","couple","noHS","noHS","inc6080",0
-"other","couple","noHS","someCollege","inc6080",0
-"other","couple","HS","BA","inc6080",0
-"other","couple","HS","grad","inc6080",0
-"other","couple","HS","HS","inc6080",2
-"other","couple","HS","noHS","inc6080",0
-"other","couple","HS","someCollege","inc6080",0
-"other","couple","someCollege","BA","inc6080",0
-"other","couple","someCollege","grad","inc6080",0
-"other","couple","someCollege","HS","inc6080",0
-"other","couple","someCollege","noHS","inc6080",0
-"other","couple","someCollege","someCollege","inc6080",2
-"other","couple","BA","BA","inc6080",0
-"other","couple","BA","grad","inc6080",2
-"other","couple","BA","HS","inc6080",0
-"other","couple","BA","noHS","inc6080",0
-"other","couple","BA","someCollege","inc6080",0
-"other","couple","grad","BA","inc6080",0
-"other","couple","grad","grad","inc6080",0
-"other","couple","grad","HS","inc6080",0
-"other","couple","grad","noHS","inc6080",0
-"other","couple","grad","someCollege","inc6080",0
-"white","man","noHS",NA,"inc80100",0
-"white","man","HS",NA,"inc80100",1
-"white","man","someCollege",NA,"inc80100",0
-"white","man","BA",NA,"inc80100",0
-"white","man","grad",NA,"inc80100",1
-"black","man","noHS",NA,"inc80100",0
-"black","man","HS",NA,"inc80100",0
-"black","man","someCollege",NA,"inc80100",0
-"black","man","BA",NA,"inc80100",1
-"black","man","grad",NA,"inc80100",0
-"latino","man","noHS",NA,"inc80100",0
-"latino","man","HS",NA,"inc80100",0
-"latino","man","someCollege",NA,"inc80100",0
-"latino","man","BA",NA,"inc80100",1
-"latino","man","grad",NA,"inc80100",0
-"other","man","noHS",NA,"inc80100",0
-"other","man","HS",NA,"inc80100",0
-"other","man","someCollege",NA,"inc80100",0
-"other","man","BA",NA,"inc80100",0
-"other","man","grad",NA,"inc80100",0
-"white","woman","noHS",NA,"inc80100",0
-"white","woman","HS",NA,"inc80100",0
-"white","woman","someCollege",NA,"inc80100",1
-"white","woman","BA",NA,"inc80100",1
-"white","woman","grad",NA,"inc80100",1
-"black","woman","noHS",NA,"inc80100",0
-"black","woman","HS",NA,"inc80100",0
-"black","woman","someCollege",NA,"inc80100",0
-"black","woman","BA",NA,"inc80100",1
-"black","woman","grad",NA,"inc80100",0
-"latino","woman","noHS",NA,"inc80100",0
-"latino","woman","HS",NA,"inc80100",0
-"latino","woman","someCollege",NA,"inc80100",0
-"latino","woman","BA",NA,"inc80100",0
-"latino","woman","grad",NA,"inc80100",0
-"other","woman","noHS",NA,"inc80100",0
-"other","woman","HS",NA,"inc80100",0
-"other","woman","someCollege",NA,"inc80100",0
-"other","woman","BA",NA,"inc80100",0
-"other","woman","grad",NA,"inc80100",0
-"white","manDep","noHS",NA,"inc80100",0
-"white","manDep","HS",NA,"inc80100",1
-"white","manDep","someCollege",NA,"inc80100",0
-"white","manDep","BA",NA,"inc80100",0
-"white","manDep","grad",NA,"inc80100",0
-"black","manDep","noHS",NA,"inc80100",0
-"black","manDep","HS",NA,"inc80100",0
-"black","manDep","someCollege",NA,"inc80100",0
-"black","manDep","BA",NA,"inc80100",0
-"black","manDep","grad",NA,"inc80100",0
-"latino","manDep","noHS",NA,"inc80100",0
-"latino","manDep","HS",NA,"inc80100",0
-"latino","manDep","someCollege",NA,"inc80100",0
-"latino","manDep","BA",NA,"inc80100",0
-"latino","manDep","grad",NA,"inc80100",0
-"other","manDep","noHS",NA,"inc80100",0
-"other","manDep","HS",NA,"inc80100",0
-"other","manDep","someCollege",NA,"inc80100",0
-"other","manDep","BA",NA,"inc80100",0
-"other","manDep","grad",NA,"inc80100",1
-"white","womanDep","noHS",NA,"inc80100",0
-"white","womanDep","HS",NA,"inc80100",1
-"white","womanDep","someCollege",NA,"inc80100",1
-"white","womanDep","BA",NA,"inc80100",1
-"white","womanDep","grad",NA,"inc80100",0
-"black","womanDep","noHS",NA,"inc80100",0
-"black","womanDep","HS",NA,"inc80100",0
-"black","womanDep","someCollege",NA,"inc80100",0
-"black","womanDep","BA",NA,"inc80100",0
-"black","womanDep","grad",NA,"inc80100",0
-"latino","womanDep","noHS",NA,"inc80100",0
-"latino","womanDep","HS",NA,"inc80100",0
-"latino","womanDep","someCollege",NA,"inc80100",1
-"latino","womanDep","BA",NA,"inc80100",0
-"latino","womanDep","grad",NA,"inc80100",0
-"other","womanDep","noHS",NA,"inc80100",0
-"other","womanDep","HS",NA,"inc80100",0
-"other","womanDep","someCollege",NA,"inc80100",0
-"other","womanDep","BA",NA,"inc80100",0
-"other","womanDep","grad",NA,"inc80100",0
-"white","couple","noHS","BA","inc80100",0
-"white","couple","noHS","grad","inc80100",0
-"white","couple","noHS","HS","inc80100",0
-"white","couple","noHS","noHS","inc80100",2
-"white","couple","noHS","someCollege","inc80100",0
-"white","couple","HS","BA","inc80100",4
-"white","couple","HS","grad","inc80100",0
-"white","couple","HS","HS","inc80100",10
-"white","couple","HS","noHS","inc80100",2
-"white","couple","HS","someCollege","inc80100",6
-"white","couple","someCollege","BA","inc80100",4
-"white","couple","someCollege","grad","inc80100",2
-"white","couple","someCollege","HS","inc80100",4
-"white","couple","someCollege","noHS","inc80100",0
-"white","couple","someCollege","someCollege","inc80100",10
-"white","couple","BA","BA","inc80100",6
-"white","couple","BA","grad","inc80100",2
-"white","couple","BA","HS","inc80100",2
-"white","couple","BA","noHS","inc80100",0
-"white","couple","BA","someCollege","inc80100",4
-"white","couple","grad","BA","inc80100",2
-"white","couple","grad","grad","inc80100",2
-"white","couple","grad","HS","inc80100",0
-"white","couple","grad","noHS","inc80100",0
-"white","couple","grad","someCollege","inc80100",2
-"black","couple","noHS","BA","inc80100",0
-"black","couple","noHS","grad","inc80100",0
-"black","couple","noHS","HS","inc80100",0
-"black","couple","noHS","noHS","inc80100",0
-"black","couple","noHS","someCollege","inc80100",0
-"black","couple","HS","BA","inc80100",0
-"black","couple","HS","grad","inc80100",0
-"black","couple","HS","HS","inc80100",0
-"black","couple","HS","noHS","inc80100",0
-"black","couple","HS","someCollege","inc80100",0
-"black","couple","someCollege","BA","inc80100",0
-"black","couple","someCollege","grad","inc80100",0
-"black","couple","someCollege","HS","inc80100",2
-"black","couple","someCollege","noHS","inc80100",0
-"black","couple","someCollege","someCollege","inc80100",0
-"black","couple","BA","BA","inc80100",0
-"black","couple","BA","grad","inc80100",0
-"black","couple","BA","HS","inc80100",0
-"black","couple","BA","noHS","inc80100",0
-"black","couple","BA","someCollege","inc80100",2
-"black","couple","grad","BA","inc80100",0
-"black","couple","grad","grad","inc80100",2
-"black","couple","grad","HS","inc80100",0
-"black","couple","grad","noHS","inc80100",0
-"black","couple","grad","someCollege","inc80100",0
-"latino","couple","noHS","BA","inc80100",0
-"latino","couple","noHS","grad","inc80100",0
-"latino","couple","noHS","HS","inc80100",2
-"latino","couple","noHS","noHS","inc80100",0
-"latino","couple","noHS","someCollege","inc80100",0
-"latino","couple","HS","BA","inc80100",0
-"latino","couple","HS","grad","inc80100",0
-"latino","couple","HS","HS","inc80100",0
-"latino","couple","HS","noHS","inc80100",0
-"latino","couple","HS","someCollege","inc80100",2
-"latino","couple","someCollege","BA","inc80100",2
-"latino","couple","someCollege","grad","inc80100",0
-"latino","couple","someCollege","HS","inc80100",0
-"latino","couple","someCollege","noHS","inc80100",0
-"latino","couple","someCollege","someCollege","inc80100",0
-"latino","couple","BA","BA","inc80100",0
-"latino","couple","BA","grad","inc80100",2
-"latino","couple","BA","HS","inc80100",0
-"latino","couple","BA","noHS","inc80100",0
-"latino","couple","BA","someCollege","inc80100",0
-"latino","couple","grad","BA","inc80100",0
-"latino","couple","grad","grad","inc80100",0
-"latino","couple","grad","HS","inc80100",0
-"latino","couple","grad","noHS","inc80100",0
-"latino","couple","grad","someCollege","inc80100",0
-"other","couple","noHS","BA","inc80100",0
-"other","couple","noHS","grad","inc80100",0
-"other","couple","noHS","HS","inc80100",0
-"other","couple","noHS","noHS","inc80100",0
-"other","couple","noHS","someCollege","inc80100",0
-"other","couple","HS","BA","inc80100",0
-"other","couple","HS","grad","inc80100",2
-"other","couple","HS","HS","inc80100",0
-"other","couple","HS","noHS","inc80100",0
-"other","couple","HS","someCollege","inc80100",0
-"other","couple","someCollege","BA","inc80100",0
-"other","couple","someCollege","grad","inc80100",0
-"other","couple","someCollege","HS","inc80100",0
-"other","couple","someCollege","noHS","inc80100",0
-"other","couple","someCollege","someCollege","inc80100",2
-"other","couple","BA","BA","inc80100",2
-"other","couple","BA","grad","inc80100",0
-"other","couple","BA","HS","inc80100",0
-"other","couple","BA","noHS","inc80100",0
-"other","couple","BA","someCollege","inc80100",0
-"other","couple","grad","BA","inc80100",0
-"other","couple","grad","grad","inc80100",0
-"other","couple","grad","HS","inc80100",0
-"other","couple","grad","noHS","inc80100",0
-"other","couple","grad","someCollege","inc80100",0
-"white","man","noHS",NA,"inc100125",0
-"white","man","HS",NA,"inc100125",0
-"white","man","someCollege",NA,"inc100125",1
-"white","man","BA",NA,"inc100125",1
-"white","man","grad",NA,"inc100125",0
-"black","man","noHS",NA,"inc100125",0
-"black","man","HS",NA,"inc100125",0
-"black","man","someCollege",NA,"inc100125",0
-"black","man","BA",NA,"inc100125",0
-"black","man","grad",NA,"inc100125",0
-"latino","man","noHS",NA,"inc100125",0
-"latino","man","HS",NA,"inc100125",0
-"latino","man","someCollege",NA,"inc100125",0
-"latino","man","BA",NA,"inc100125",0
-"latino","man","grad",NA,"inc100125",0
-"other","man","noHS",NA,"inc100125",0
-"other","man","HS",NA,"inc100125",0
-"other","man","someCollege",NA,"inc100125",0
-"other","man","BA",NA,"inc100125",0
-"other","man","grad",NA,"inc100125",1
-"white","woman","noHS",NA,"inc100125",0
-"white","woman","HS",NA,"inc100125",1
-"white","woman","someCollege",NA,"inc100125",0
-"white","woman","BA",NA,"inc100125",0
-"white","woman","grad",NA,"inc100125",1
-"black","woman","noHS",NA,"inc100125",0
-"black","woman","HS",NA,"inc100125",0
-"black","woman","someCollege",NA,"inc100125",0
-"black","woman","BA",NA,"inc100125",0
-"black","woman","grad",NA,"inc100125",0
-"latino","woman","noHS",NA,"inc100125",0
-"latino","woman","HS",NA,"inc100125",0
-"latino","woman","someCollege",NA,"inc100125",0
-"latino","woman","BA",NA,"inc100125",0
-"latino","woman","grad",NA,"inc100125",0
-"other","woman","noHS",NA,"inc100125",0
-"other","woman","HS",NA,"inc100125",0
-"other","woman","someCollege",NA,"inc100125",0
-"other","woman","BA",NA,"inc100125",0
-"other","woman","grad",NA,"inc100125",0
-"white","manDep","noHS",NA,"inc100125",0
-"white","manDep","HS",NA,"inc100125",0
-"white","manDep","someCollege",NA,"inc100125",0
-"white","manDep","BA",NA,"inc100125",1
-"white","manDep","grad",NA,"inc100125",0
-"black","manDep","noHS",NA,"inc100125",0
-"black","manDep","HS",NA,"inc100125",0
-"black","manDep","someCollege",NA,"inc100125",0
-"black","manDep","BA",NA,"inc100125",0
-"black","manDep","grad",NA,"inc100125",0
-"latino","manDep","noHS",NA,"inc100125",0
-"latino","manDep","HS",NA,"inc100125",1
-"latino","manDep","someCollege",NA,"inc100125",0
-"latino","manDep","BA",NA,"inc100125",0
-"latino","manDep","grad",NA,"inc100125",0
-"other","manDep","noHS",NA,"inc100125",0
-"other","manDep","HS",NA,"inc100125",0
-"other","manDep","someCollege",NA,"inc100125",0
-"other","manDep","BA",NA,"inc100125",0
-"other","manDep","grad",NA,"inc100125",0
-"white","womanDep","noHS",NA,"inc100125",0
-"white","womanDep","HS",NA,"inc100125",0
-"white","womanDep","someCollege",NA,"inc100125",0
-"white","womanDep","BA",NA,"inc100125",1
-"white","womanDep","grad",NA,"inc100125",0
-"black","womanDep","noHS",NA,"inc100125",1
-"black","womanDep","HS",NA,"inc100125",0
-"black","womanDep","someCollege",NA,"inc100125",0
-"black","womanDep","BA",NA,"inc100125",0
-"black","womanDep","grad",NA,"inc100125",0
-"latino","womanDep","noHS",NA,"inc100125",0
-"latino","womanDep","HS",NA,"inc100125",0
-"latino","womanDep","someCollege",NA,"inc100125",0
-"latino","womanDep","BA",NA,"inc100125",0
-"latino","womanDep","grad",NA,"inc100125",0
-"other","womanDep","noHS",NA,"inc100125",0
-"other","womanDep","HS",NA,"inc100125",0
-"other","womanDep","someCollege",NA,"inc100125",0
-"other","womanDep","BA",NA,"inc100125",0
-"other","womanDep","grad",NA,"inc100125",0
-"white","couple","noHS","BA","inc100125",0
-"white","couple","noHS","grad","inc100125",0
-"white","couple","noHS","HS","inc100125",0
-"white","couple","noHS","noHS","inc100125",2
-"white","couple","noHS","someCollege","inc100125",0
-"white","couple","HS","BA","inc100125",2
-"white","couple","HS","grad","inc100125",2
-"white","couple","HS","HS","inc100125",4
-"white","couple","HS","noHS","inc100125",0
-"white","couple","HS","someCollege","inc100125",4
-"white","couple","someCollege","BA","inc100125",6
-"white","couple","someCollege","grad","inc100125",2
-"white","couple","someCollege","HS","inc100125",6
-"white","couple","someCollege","noHS","inc100125",0
-"white","couple","someCollege","someCollege","inc100125",6
-"white","couple","BA","BA","inc100125",6
-"white","couple","BA","grad","inc100125",4
-"white","couple","BA","HS","inc100125",2
-"white","couple","BA","noHS","inc100125",0
-"white","couple","BA","someCollege","inc100125",6
-"white","couple","grad","BA","inc100125",0
-"white","couple","grad","grad","inc100125",2
-"white","couple","grad","HS","inc100125",2
-"white","couple","grad","noHS","inc100125",2
-"white","couple","grad","someCollege","inc100125",4
-"black","couple","noHS","BA","inc100125",0
-"black","couple","noHS","grad","inc100125",0
-"black","couple","noHS","HS","inc100125",2
-"black","couple","noHS","noHS","inc100125",0
-"black","couple","noHS","someCollege","inc100125",0
-"black","couple","HS","BA","inc100125",0
-"black","couple","HS","grad","inc100125",0
-"black","couple","HS","HS","inc100125",0
-"black","couple","HS","noHS","inc100125",0
-"black","couple","HS","someCollege","inc100125",0
-"black","couple","someCollege","BA","inc100125",0
-"black","couple","someCollege","grad","inc100125",0
-"black","couple","someCollege","HS","inc100125",0
-"black","couple","someCollege","noHS","inc100125",0
-"black","couple","someCollege","someCollege","inc100125",2
-"black","couple","BA","BA","inc100125",2
-"black","couple","BA","grad","inc100125",0
-"black","couple","BA","HS","inc100125",0
-"black","couple","BA","noHS","inc100125",0
-"black","couple","BA","someCollege","inc100125",0
-"black","couple","grad","BA","inc100125",0
-"black","couple","grad","grad","inc100125",0
-"black","couple","grad","HS","inc100125",0
-"black","couple","grad","noHS","inc100125",0
-"black","couple","grad","someCollege","inc100125",0
-"latino","couple","noHS","BA","inc100125",0
-"latino","couple","noHS","grad","inc100125",0
-"latino","couple","noHS","HS","inc100125",0
-"latino","couple","noHS","noHS","inc100125",0
-"latino","couple","noHS","someCollege","inc100125",2
-"latino","couple","HS","BA","inc100125",0
-"latino","couple","HS","grad","inc100125",0
-"latino","couple","HS","HS","inc100125",2
-"latino","couple","HS","noHS","inc100125",0
-"latino","couple","HS","someCollege","inc100125",0
-"latino","couple","someCollege","BA","inc100125",0
-"latino","couple","someCollege","grad","inc100125",0
-"latino","couple","someCollege","HS","inc100125",0
-"latino","couple","someCollege","noHS","inc100125",0
-"latino","couple","someCollege","someCollege","inc100125",0
-"latino","couple","BA","BA","inc100125",0
-"latino","couple","BA","grad","inc100125",0
-"latino","couple","BA","HS","inc100125",0
-"latino","couple","BA","noHS","inc100125",2
-"latino","couple","BA","someCollege","inc100125",0
-"latino","couple","grad","BA","inc100125",0
-"latino","couple","grad","grad","inc100125",0
-"latino","couple","grad","HS","inc100125",0
-"latino","couple","grad","noHS","inc100125",0
-"latino","couple","grad","someCollege","inc100125",0
-"other","couple","noHS","BA","inc100125",0
-"other","couple","noHS","grad","inc100125",0
-"other","couple","noHS","HS","inc100125",0
-"other","couple","noHS","noHS","inc100125",0
-"other","couple","noHS","someCollege","inc100125",0
-"other","couple","HS","BA","inc100125",2
-"other","couple","HS","grad","inc100125",0
-"other","couple","HS","HS","inc100125",0
-"other","couple","HS","noHS","inc100125",0
-"other","couple","HS","someCollege","inc100125",0
-"other","couple","someCollege","BA","inc100125",0
-"other","couple","someCollege","grad","inc100125",0
-"other","couple","someCollege","HS","inc100125",0
-"other","couple","someCollege","noHS","inc100125",0
-"other","couple","someCollege","someCollege","inc100125",2
-"other","couple","BA","BA","inc100125",0
-"other","couple","BA","grad","inc100125",0
-"other","couple","BA","HS","inc100125",0
-"other","couple","BA","noHS","inc100125",0
-"other","couple","BA","someCollege","inc100125",0
-"other","couple","grad","BA","inc100125",0
-"other","couple","grad","grad","inc100125",2
-"other","couple","grad","HS","inc100125",0
-"other","couple","grad","noHS","inc100125",0
-"other","couple","grad","someCollege","inc100125",0
-"white","man","noHS",NA,"inc125150",0
-"white","man","HS",NA,"inc125150",0
-"white","man","someCollege",NA,"inc125150",0
-"white","man","BA",NA,"inc125150",1
-"white","man","grad",NA,"inc125150",1
-"black","man","noHS",NA,"inc125150",0
-"black","man","HS",NA,"inc125150",0
-"black","man","someCollege",NA,"inc125150",0
-"black","man","BA",NA,"inc125150",0
-"black","man","grad",NA,"inc125150",0
-"latino","man","noHS",NA,"inc125150",0
-"latino","man","HS",NA,"inc125150",0
-"latino","man","someCollege",NA,"inc125150",0
-"latino","man","BA",NA,"inc125150",0
-"latino","man","grad",NA,"inc125150",0
-"other","man","noHS",NA,"inc125150",0
-"other","man","HS",NA,"inc125150",0
-"other","man","someCollege",NA,"inc125150",0
-"other","man","BA",NA,"inc125150",0
-"other","man","grad",NA,"inc125150",0
-"white","woman","noHS",NA,"inc125150",0
-"white","woman","HS",NA,"inc125150",0
-"white","woman","someCollege",NA,"inc125150",0
-"white","woman","BA",NA,"inc125150",0
-"white","woman","grad",NA,"inc125150",1
-"black","woman","noHS",NA,"inc125150",0
-"black","woman","HS",NA,"inc125150",0
-"black","woman","someCollege",NA,"inc125150",0
-"black","woman","BA",NA,"inc125150",0
-"black","woman","grad",NA,"inc125150",0
-"latino","woman","noHS",NA,"inc125150",0
-"latino","woman","HS",NA,"inc125150",0
-"latino","woman","someCollege",NA,"inc125150",0
-"latino","woman","BA",NA,"inc125150",0
-"latino","woman","grad",NA,"inc125150",0
-"other","woman","noHS",NA,"inc125150",0
-"other","woman","HS",NA,"inc125150",0
-"other","woman","someCollege",NA,"inc125150",0
-"other","woman","BA",NA,"inc125150",0
-"other","woman","grad",NA,"inc125150",0
-"white","manDep","noHS",NA,"inc125150",0
-"white","manDep","HS",NA,"inc125150",0
-"white","manDep","someCollege",NA,"inc125150",1
-"white","manDep","BA",NA,"inc125150",0
-"white","manDep","grad",NA,"inc125150",0
-"black","manDep","noHS",NA,"inc125150",0
-"black","manDep","HS",NA,"inc125150",0
-"black","manDep","someCollege",NA,"inc125150",0
-"black","manDep","BA",NA,"inc125150",0
-"black","manDep","grad",NA,"inc125150",0
-"latino","manDep","noHS",NA,"inc125150",0
-"latino","manDep","HS",NA,"inc125150",0
-"latino","manDep","someCollege",NA,"inc125150",0
-"latino","manDep","BA",NA,"inc125150",0
-"latino","manDep","grad",NA,"inc125150",0
-"other","manDep","noHS",NA,"inc125150",0
-"other","manDep","HS",NA,"inc125150",0
-"other","manDep","someCollege",NA,"inc125150",0
-"other","manDep","BA",NA,"inc125150",0
-"other","manDep","grad",NA,"inc125150",0
-"white","womanDep","noHS",NA,"inc125150",0
-"white","womanDep","HS",NA,"inc125150",0
-"white","womanDep","someCollege",NA,"inc125150",1
-"white","womanDep","BA",NA,"inc125150",0
-"white","womanDep","grad",NA,"inc125150",0
-"black","womanDep","noHS",NA,"inc125150",0
-"black","womanDep","HS",NA,"inc125150",0
-"black","womanDep","someCollege",NA,"inc125150",0
-"black","womanDep","BA",NA,"inc125150",0
-"black","womanDep","grad",NA,"inc125150",0
-"latino","womanDep","noHS",NA,"inc125150",0
-"latino","womanDep","HS",NA,"inc125150",0
-"latino","womanDep","someCollege",NA,"inc125150",0
-"latino","womanDep","BA",NA,"inc125150",0
-"latino","womanDep","grad",NA,"inc125150",0
-"other","womanDep","noHS",NA,"inc125150",0
-"other","womanDep","HS",NA,"inc125150",0
-"other","womanDep","someCollege",NA,"inc125150",0
-"other","womanDep","BA",NA,"inc125150",1
-"other","womanDep","grad",NA,"inc125150",0
-"white","couple","noHS","BA","inc125150",0
-"white","couple","noHS","grad","inc125150",0
-"white","couple","noHS","HS","inc125150",2
-"white","couple","noHS","noHS","inc125150",0
-"white","couple","noHS","someCollege","inc125150",0
-"white","couple","HS","BA","inc125150",2
-"white","couple","HS","grad","inc125150",0
-"white","couple","HS","HS","inc125150",4
-"white","couple","HS","noHS","inc125150",0
-"white","couple","HS","someCollege","inc125150",0
-"white","couple","someCollege","BA","inc125150",2
-"white","couple","someCollege","grad","inc125150",0
-"white","couple","someCollege","HS","inc125150",2
-"white","couple","someCollege","noHS","inc125150",0
-"white","couple","someCollege","someCollege","inc125150",4
-"white","couple","BA","BA","inc125150",6
-"white","couple","BA","grad","inc125150",4
-"white","couple","BA","HS","inc125150",0
-"white","couple","BA","noHS","inc125150",0
-"white","couple","BA","someCollege","inc125150",4
-"white","couple","grad","BA","inc125150",2
-"white","couple","grad","grad","inc125150",4
-"white","couple","grad","HS","inc125150",0
-"white","couple","grad","noHS","inc125150",0
-"white","couple","grad","someCollege","inc125150",2
-"black","couple","noHS","BA","inc125150",0
-"black","couple","noHS","grad","inc125150",0
-"black","couple","noHS","HS","inc125150",0
-"black","couple","noHS","noHS","inc125150",0
-"black","couple","noHS","someCollege","inc125150",0
-"black","couple","HS","BA","inc125150",0
-"black","couple","HS","grad","inc125150",0
-"black","couple","HS","HS","inc125150",0
-"black","couple","HS","noHS","inc125150",0
-"black","couple","HS","someCollege","inc125150",2
-"black","couple","someCollege","BA","inc125150",0
-"black","couple","someCollege","grad","inc125150",2
-"black","couple","someCollege","HS","inc125150",0
-"black","couple","someCollege","noHS","inc125150",0
-"black","couple","someCollege","someCollege","inc125150",0
-"black","couple","BA","BA","inc125150",0
-"black","couple","BA","grad","inc125150",0
-"black","couple","BA","HS","inc125150",0
-"black","couple","BA","noHS","inc125150",0
-"black","couple","BA","someCollege","inc125150",0
-"black","couple","grad","BA","inc125150",0
-"black","couple","grad","grad","inc125150",0
-"black","couple","grad","HS","inc125150",0
-"black","couple","grad","noHS","inc125150",0
-"black","couple","grad","someCollege","inc125150",0
-"latino","couple","noHS","BA","inc125150",0
-"latino","couple","noHS","grad","inc125150",0
-"latino","couple","noHS","HS","inc125150",0
-"latino","couple","noHS","noHS","inc125150",0
-"latino","couple","noHS","someCollege","inc125150",0
-"latino","couple","HS","BA","inc125150",0
-"latino","couple","HS","grad","inc125150",0
-"latino","couple","HS","HS","inc125150",0
-"latino","couple","HS","noHS","inc125150",0
-"latino","couple","HS","someCollege","inc125150",2
-"latino","couple","someCollege","BA","inc125150",2
-"latino","couple","someCollege","grad","inc125150",0
-"latino","couple","someCollege","HS","inc125150",0
-"latino","couple","someCollege","noHS","inc125150",0
-"latino","couple","someCollege","someCollege","inc125150",0
-"latino","couple","BA","BA","inc125150",0
-"latino","couple","BA","grad","inc125150",0
-"latino","couple","BA","HS","inc125150",0
-"latino","couple","BA","noHS","inc125150",0
-"latino","couple","BA","someCollege","inc125150",0
-"latino","couple","grad","BA","inc125150",0
-"latino","couple","grad","grad","inc125150",0
-"latino","couple","grad","HS","inc125150",0
-"latino","couple","grad","noHS","inc125150",0
-"latino","couple","grad","someCollege","inc125150",0
-"other","couple","noHS","BA","inc125150",0
-"other","couple","noHS","grad","inc125150",0
-"other","couple","noHS","HS","inc125150",0
-"other","couple","noHS","noHS","inc125150",0
-"other","couple","noHS","someCollege","inc125150",0
-"other","couple","HS","BA","inc125150",0
-"other","couple","HS","grad","inc125150",0
-"other","couple","HS","HS","inc125150",0
-"other","couple","HS","noHS","inc125150",0
-"other","couple","HS","someCollege","inc125150",0
-"other","couple","someCollege","BA","inc125150",0
-"other","couple","someCollege","grad","inc125150",0
-"other","couple","someCollege","HS","inc125150",0
-"other","couple","someCollege","noHS","inc125150",0
-"other","couple","someCollege","someCollege","inc125150",0
-"other","couple","BA","BA","inc125150",0
-"other","couple","BA","grad","inc125150",0
-"other","couple","BA","HS","inc125150",2
-"other","couple","BA","noHS","inc125150",0
-"other","couple","BA","someCollege","inc125150",0
-"other","couple","grad","BA","inc125150",2
-"other","couple","grad","grad","inc125150",0
-"other","couple","grad","HS","inc125150",0
-"other","couple","grad","noHS","inc125150",0
-"other","couple","grad","someCollege","inc125150",0
-"white","man","noHS",NA,"inc150200",0
-"white","man","HS",NA,"inc150200",1
-"white","man","someCollege",NA,"inc150200",0
-"white","man","BA",NA,"inc150200",0
-"white","man","grad",NA,"inc150200",0
-"black","man","noHS",NA,"inc150200",0
-"black","man","HS",NA,"inc150200",0
-"black","man","someCollege",NA,"inc150200",0
-"black","man","BA",NA,"inc150200",0
-"black","man","grad",NA,"inc150200",0
-"latino","man","noHS",NA,"inc150200",0
-"latino","man","HS",NA,"inc150200",0
-"latino","man","someCollege",NA,"inc150200",0
-"latino","man","BA",NA,"inc150200",0
-"latino","man","grad",NA,"inc150200",0
-"other","man","noHS",NA,"inc150200",0
-"other","man","HS",NA,"inc150200",0
-"other","man","someCollege",NA,"inc150200",0
-"other","man","BA",NA,"inc150200",0
-"other","man","grad",NA,"inc150200",0
-"white","woman","noHS",NA,"inc150200",0
-"white","woman","HS",NA,"inc150200",0
-"white","woman","someCollege",NA,"inc150200",1
-"white","woman","BA",NA,"inc150200",0
-"white","woman","grad",NA,"inc150200",0
-"black","woman","noHS",NA,"inc150200",0
-"black","woman","HS",NA,"inc150200",0
-"black","woman","someCollege",NA,"inc150200",0
-"black","woman","BA",NA,"inc150200",0
-"black","woman","grad",NA,"inc150200",0
-"latino","woman","noHS",NA,"inc150200",0
-"latino","woman","HS",NA,"inc150200",0
-"latino","woman","someCollege",NA,"inc150200",0
-"latino","woman","BA",NA,"inc150200",0
-"latino","woman","grad",NA,"inc150200",0
-"other","woman","noHS",NA,"inc150200",0
-"other","woman","HS",NA,"inc150200",0
-"other","woman","someCollege",NA,"inc150200",0
-"other","woman","BA",NA,"inc150200",0
-"other","woman","grad",NA,"inc150200",0
-"white","manDep","noHS",NA,"inc150200",0
-"white","manDep","HS",NA,"inc150200",0
-"white","manDep","someCollege",NA,"inc150200",0
-"white","manDep","BA",NA,"inc150200",0
-"white","manDep","grad",NA,"inc150200",0
-"black","manDep","noHS",NA,"inc150200",0
-"black","manDep","HS",NA,"inc150200",0
-"black","manDep","someCollege",NA,"inc150200",0
-"black","manDep","BA",NA,"inc150200",0
-"black","manDep","grad",NA,"inc150200",0
-"latino","manDep","noHS",NA,"inc150200",0
-"latino","manDep","HS",NA,"inc150200",0
-"latino","manDep","someCollege",NA,"inc150200",0
-"latino","manDep","BA",NA,"inc150200",0
-"latino","manDep","grad",NA,"inc150200",0
-"other","manDep","noHS",NA,"inc150200",1
-"other","manDep","HS",NA,"inc150200",0
-"other","manDep","someCollege",NA,"inc150200",0
-"other","manDep","BA",NA,"inc150200",0
-"other","manDep","grad",NA,"inc150200",0
-"white","womanDep","noHS",NA,"inc150200",0
-"white","womanDep","HS",NA,"inc150200",0
-"white","womanDep","someCollege",NA,"inc150200",1
-"white","womanDep","BA",NA,"inc150200",0
-"white","womanDep","grad",NA,"inc150200",0
-"black","womanDep","noHS",NA,"inc150200",0
-"black","womanDep","HS",NA,"inc150200",0
-"black","womanDep","someCollege",NA,"inc150200",0
-"black","womanDep","BA",NA,"inc150200",0
-"black","womanDep","grad",NA,"inc150200",0
-"latino","womanDep","noHS",NA,"inc150200",0
-"latino","womanDep","HS",NA,"inc150200",0
-"latino","womanDep","someCollege",NA,"inc150200",0
-"latino","womanDep","BA",NA,"inc150200",0
-"latino","womanDep","grad",NA,"inc150200",0
-"other","womanDep","noHS",NA,"inc150200",0
-"other","womanDep","HS",NA,"inc150200",0
-"other","womanDep","someCollege",NA,"inc150200",0
-"other","womanDep","BA",NA,"inc150200",0
-"other","womanDep","grad",NA,"inc150200",0
-"white","couple","noHS","BA","inc150200",0
-"white","couple","noHS","grad","inc150200",0
-"white","couple","noHS","HS","inc150200",0
-"white","couple","noHS","noHS","inc150200",0
-"white","couple","noHS","someCollege","inc150200",0
-"white","couple","HS","BA","inc150200",2
-"white","couple","HS","grad","inc150200",0
-"white","couple","HS","HS","inc150200",4
-"white","couple","HS","noHS","inc150200",0
-"white","couple","HS","someCollege","inc150200",2
-"white","couple","someCollege","BA","inc150200",2
-"white","couple","someCollege","grad","inc150200",2
-"white","couple","someCollege","HS","inc150200",2
-"white","couple","someCollege","noHS","inc150200",0
-"white","couple","someCollege","someCollege","inc150200",2
-"white","couple","BA","BA","inc150200",8
-"white","couple","BA","grad","inc150200",8
-"white","couple","BA","HS","inc150200",0
-"white","couple","BA","noHS","inc150200",0
-"white","couple","BA","someCollege","inc150200",4
-"white","couple","grad","BA","inc150200",2
-"white","couple","grad","grad","inc150200",0
-"white","couple","grad","HS","inc150200",0
-"white","couple","grad","noHS","inc150200",0
-"white","couple","grad","someCollege","inc150200",4
-"black","couple","noHS","BA","inc150200",0
-"black","couple","noHS","grad","inc150200",0
-"black","couple","noHS","HS","inc150200",0
-"black","couple","noHS","noHS","inc150200",0
-"black","couple","noHS","someCollege","inc150200",0
-"black","couple","HS","BA","inc150200",0
-"black","couple","HS","grad","inc150200",0
-"black","couple","HS","HS","inc150200",0
-"black","couple","HS","noHS","inc150200",0
-"black","couple","HS","someCollege","inc150200",0
-"black","couple","someCollege","BA","inc150200",0
-"black","couple","someCollege","grad","inc150200",0
-"black","couple","someCollege","HS","inc150200",0
-"black","couple","someCollege","noHS","inc150200",0
-"black","couple","someCollege","someCollege","inc150200",0
-"black","couple","BA","BA","inc150200",2
-"black","couple","BA","grad","inc150200",0
-"black","couple","BA","HS","inc150200",0
-"black","couple","BA","noHS","inc150200",0
-"black","couple","BA","someCollege","inc150200",0
-"black","couple","grad","BA","inc150200",0
-"black","couple","grad","grad","inc150200",2
-"black","couple","grad","HS","inc150200",0
-"black","couple","grad","noHS","inc150200",0
-"black","couple","grad","someCollege","inc150200",0
-"latino","couple","noHS","BA","inc150200",0
-"latino","couple","noHS","grad","inc150200",0
-"latino","couple","noHS","HS","inc150200",0
-"latino","couple","noHS","noHS","inc150200",0
-"latino","couple","noHS","someCollege","inc150200",0
-"latino","couple","HS","BA","inc150200",0
-"latino","couple","HS","grad","inc150200",0
-"latino","couple","HS","HS","inc150200",0
-"latino","couple","HS","noHS","inc150200",0
-"latino","couple","HS","someCollege","inc150200",0
-"latino","couple","someCollege","BA","inc150200",0
-"latino","couple","someCollege","grad","inc150200",0
-"latino","couple","someCollege","HS","inc150200",0
-"latino","couple","someCollege","noHS","inc150200",0
-"latino","couple","someCollege","someCollege","inc150200",0
-"latino","couple","BA","BA","inc150200",0
-"latino","couple","BA","grad","inc150200",0
-"latino","couple","BA","HS","inc150200",2
-"latino","couple","BA","noHS","inc150200",0
-"latino","couple","BA","someCollege","inc150200",0
-"latino","couple","grad","BA","inc150200",0
-"latino","couple","grad","grad","inc150200",2
-"latino","couple","grad","HS","inc150200",0
-"latino","couple","grad","noHS","inc150200",0
-"latino","couple","grad","someCollege","inc150200",0
-"other","couple","noHS","BA","inc150200",0
-"other","couple","noHS","grad","inc150200",0
-"other","couple","noHS","HS","inc150200",0
-"other","couple","noHS","noHS","inc150200",0
-"other","couple","noHS","someCollege","inc150200",0
-"other","couple","HS","BA","inc150200",0
-"other","couple","HS","grad","inc150200",0
-"other","couple","HS","HS","inc150200",0
-"other","couple","HS","noHS","inc150200",0
-"other","couple","HS","someCollege","inc150200",0
-"other","couple","someCollege","BA","inc150200",0
-"other","couple","someCollege","grad","inc150200",0
-"other","couple","someCollege","HS","inc150200",0
-"other","couple","someCollege","noHS","inc150200",0
-"other","couple","someCollege","someCollege","inc150200",2
-"other","couple","BA","BA","inc150200",0
-"other","couple","BA","grad","inc150200",0
-"other","couple","BA","HS","inc150200",0
-"other","couple","BA","noHS","inc150200",0
-"other","couple","BA","someCollege","inc150200",0
-"other","couple","grad","BA","inc150200",2
-"other","couple","grad","grad","inc150200",4
-"other","couple","grad","HS","inc150200",0
-"other","couple","grad","noHS","inc150200",0
-"other","couple","grad","someCollege","inc150200",0
-"white","man","noHS",NA,"inc200300",0
-"white","man","HS",NA,"inc200300",0
-"white","man","someCollege",NA,"inc200300",0
-"white","man","BA",NA,"inc200300",0
-"white","man","grad",NA,"inc200300",1
-"black","man","noHS",NA,"inc200300",0
-"black","man","HS",NA,"inc200300",0
-"black","man","someCollege",NA,"inc200300",0
-"black","man","BA",NA,"inc200300",0
-"black","man","grad",NA,"inc200300",0
-"latino","man","noHS",NA,"inc200300",0
-"latino","man","HS",NA,"inc200300",0
-"latino","man","someCollege",NA,"inc200300",0
-"latino","man","BA",NA,"inc200300",0
-"latino","man","grad",NA,"inc200300",0
-"other","man","noHS",NA,"inc200300",0
-"other","man","HS",NA,"inc200300",0
-"other","man","someCollege",NA,"inc200300",0
-"other","man","BA",NA,"inc200300",0
-"other","man","grad",NA,"inc200300",0
-"white","woman","noHS",NA,"inc200300",0
-"white","woman","HS",NA,"inc200300",0
-"white","woman","someCollege",NA,"inc200300",0
-"white","woman","BA",NA,"inc200300",0
-"white","woman","grad",NA,"inc200300",0
-"black","woman","noHS",NA,"inc200300",0
-"black","woman","HS",NA,"inc200300",0
-"black","woman","someCollege",NA,"inc200300",0
-"black","woman","BA",NA,"inc200300",0
-"black","woman","grad",NA,"inc200300",0
-"latino","woman","noHS",NA,"inc200300",0
-"latino","woman","HS",NA,"inc200300",0
-"latino","woman","someCollege",NA,"inc200300",0
-"latino","woman","BA",NA,"inc200300",0
-"latino","woman","grad",NA,"inc200300",0
-"other","woman","noHS",NA,"inc200300",0
-"other","woman","HS",NA,"inc200300",0
-"other","woman","someCollege",NA,"inc200300",0
-"other","woman","BA",NA,"inc200300",0
-"other","woman","grad",NA,"inc200300",0
-"white","manDep","noHS",NA,"inc200300",0
-"white","manDep","HS",NA,"inc200300",0
-"white","manDep","someCollege",NA,"inc200300",0
-"white","manDep","BA",NA,"inc200300",0
-"white","manDep","grad",NA,"inc200300",0
-"black","manDep","noHS",NA,"inc200300",0
-"black","manDep","HS",NA,"inc200300",0
-"black","manDep","someCollege",NA,"inc200300",0
-"black","manDep","BA",NA,"inc200300",0
-"black","manDep","grad",NA,"inc200300",0
-"latino","manDep","noHS",NA,"inc200300",0
-"latino","manDep","HS",NA,"inc200300",0
-"latino","manDep","someCollege",NA,"inc200300",0
-"latino","manDep","BA",NA,"inc200300",0
-"latino","manDep","grad",NA,"inc200300",0
-"other","manDep","noHS",NA,"inc200300",0
-"other","manDep","HS",NA,"inc200300",0
-"other","manDep","someCollege",NA,"inc200300",0
-"other","manDep","BA",NA,"inc200300",0
-"other","manDep","grad",NA,"inc200300",0
-"white","womanDep","noHS",NA,"inc200300",0
-"white","womanDep","HS",NA,"inc200300",0
-"white","womanDep","someCollege",NA,"inc200300",0
-"white","womanDep","BA",NA,"inc200300",0
-"white","womanDep","grad",NA,"inc200300",0
-"black","womanDep","noHS",NA,"inc200300",0
-"black","womanDep","HS",NA,"inc200300",0
-"black","womanDep","someCollege",NA,"inc200300",0
-"black","womanDep","BA",NA,"inc200300",1
-"black","womanDep","grad",NA,"inc200300",0
-"latino","womanDep","noHS",NA,"inc200300",0
-"latino","womanDep","HS",NA,"inc200300",0
-"latino","womanDep","someCollege",NA,"inc200300",0
-"latino","womanDep","BA",NA,"inc200300",0
-"latino","womanDep","grad",NA,"inc200300",0
-"other","womanDep","noHS",NA,"inc200300",0
-"other","womanDep","HS",NA,"inc200300",0
-"other","womanDep","someCollege",NA,"inc200300",0
-"other","womanDep","BA",NA,"inc200300",0
-"other","womanDep","grad",NA,"inc200300",0
-"white","couple","noHS","BA","inc200300",0
-"white","couple","noHS","grad","inc200300",0
-"white","couple","noHS","HS","inc200300",0
-"white","couple","noHS","noHS","inc200300",0
-"white","couple","noHS","someCollege","inc200300",0
-"white","couple","HS","BA","inc200300",0
-"white","couple","HS","grad","inc200300",2
-"white","couple","HS","HS","inc200300",0
-"white","couple","HS","noHS","inc200300",0
-"white","couple","HS","someCollege","inc200300",0
-"white","couple","someCollege","BA","inc200300",2
-"white","couple","someCollege","grad","inc200300",0
-"white","couple","someCollege","HS","inc200300",0
-"white","couple","someCollege","noHS","inc200300",0
-"white","couple","someCollege","someCollege","inc200300",4
-"white","couple","BA","BA","inc200300",6
-"white","couple","BA","grad","inc200300",0
-"white","couple","BA","HS","inc200300",2
-"white","couple","BA","noHS","inc200300",0
-"white","couple","BA","someCollege","inc200300",2
-"white","couple","grad","BA","inc200300",6
-"white","couple","grad","grad","inc200300",6
-"white","couple","grad","HS","inc200300",0
-"white","couple","grad","noHS","inc200300",0
-"white","couple","grad","someCollege","inc200300",0
-"black","couple","noHS","BA","inc200300",0
-"black","couple","noHS","grad","inc200300",0
-"black","couple","noHS","HS","inc200300",0
-"black","couple","noHS","noHS","inc200300",0
-"black","couple","noHS","someCollege","inc200300",0
-"black","couple","HS","BA","inc200300",0
-"black","couple","HS","grad","inc200300",0
-"black","couple","HS","HS","inc200300",0
-"black","couple","HS","noHS","inc200300",0
-"black","couple","HS","someCollege","inc200300",0
-"black","couple","someCollege","BA","inc200300",0
-"black","couple","someCollege","grad","inc200300",0
-"black","couple","someCollege","HS","inc200300",0
-"black","couple","someCollege","noHS","inc200300",0
-"black","couple","someCollege","someCollege","inc200300",0
-"black","couple","BA","BA","inc200300",0
-"black","couple","BA","grad","inc200300",0
-"black","couple","BA","HS","inc200300",0
-"black","couple","BA","noHS","inc200300",0
-"black","couple","BA","someCollege","inc200300",0
-"black","couple","grad","BA","inc200300",0
-"black","couple","grad","grad","inc200300",2
-"black","couple","grad","HS","inc200300",0
-"black","couple","grad","noHS","inc200300",0
-"black","couple","grad","someCollege","inc200300",0
-"latino","couple","noHS","BA","inc200300",0
-"latino","couple","noHS","grad","inc200300",0
-"latino","couple","noHS","HS","inc200300",0
-"latino","couple","noHS","noHS","inc200300",0
-"latino","couple","noHS","someCollege","inc200300",0
-"latino","couple","HS","BA","inc200300",0
-"latino","couple","HS","grad","inc200300",0
-"latino","couple","HS","HS","inc200300",0
-"latino","couple","HS","noHS","inc200300",0
-"latino","couple","HS","someCollege","inc200300",0
-"latino","couple","someCollege","BA","inc200300",0
-"latino","couple","someCollege","grad","inc200300",0
-"latino","couple","someCollege","HS","inc200300",0
-"latino","couple","someCollege","noHS","inc200300",0
-"latino","couple","someCollege","someCollege","inc200300",0
-"latino","couple","BA","BA","inc200300",0
-"latino","couple","BA","grad","inc200300",0
-"latino","couple","BA","HS","inc200300",0
-"latino","couple","BA","noHS","inc200300",0
-"latino","couple","BA","someCollege","inc200300",0
-"latino","couple","grad","BA","inc200300",0
-"latino","couple","grad","grad","inc200300",2
-"latino","couple","grad","HS","inc200300",0
-"latino","couple","grad","noHS","inc200300",0
-"latino","couple","grad","someCollege","inc200300",0
-"other","couple","noHS","BA","inc200300",0
-"other","couple","noHS","grad","inc200300",0
-"other","couple","noHS","HS","inc200300",0
-"other","couple","noHS","noHS","inc200300",0
-"other","couple","noHS","someCollege","inc200300",0
-"other","couple","HS","BA","inc200300",0
-"other","couple","HS","grad","inc200300",0
-"other","couple","HS","HS","inc200300",0
-"other","couple","HS","noHS","inc200300",0
-"other","couple","HS","someCollege","inc200300",0
-"other","couple","someCollege","BA","inc200300",0
-"other","couple","someCollege","grad","inc200300",0
-"other","couple","someCollege","HS","inc200300",0
-"other","couple","someCollege","noHS","inc200300",0
-"other","couple","someCollege","someCollege","inc200300",0
-"other","couple","BA","BA","inc200300",2
-"other","couple","BA","grad","inc200300",0
-"other","couple","BA","HS","inc200300",0
-"other","couple","BA","noHS","inc200300",0
-"other","couple","BA","someCollege","inc200300",0
-"other","couple","grad","BA","inc200300",0
-"other","couple","grad","grad","inc200300",0
-"other","couple","grad","HS","inc200300",0
-"other","couple","grad","noHS","inc200300",0
-"other","couple","grad","someCollege","inc200300",0
-"white","man","noHS",NA,"inc300400",0
-"white","man","HS",NA,"inc300400",0
-"white","man","someCollege",NA,"inc300400",0
-"white","man","BA",NA,"inc300400",0
-"white","man","grad",NA,"inc300400",0
-"black","man","noHS",NA,"inc300400",0
-"black","man","HS",NA,"inc300400",0
-"black","man","someCollege",NA,"inc300400",0
-"black","man","BA",NA,"inc300400",0
-"black","man","grad",NA,"inc300400",0
-"latino","man","noHS",NA,"inc300400",0
-"latino","man","HS",NA,"inc300400",0
-"latino","man","someCollege",NA,"inc300400",0
-"latino","man","BA",NA,"inc300400",0
-"latino","man","grad",NA,"inc300400",0
-"other","man","noHS",NA,"inc300400",0
-"other","man","HS",NA,"inc300400",0
-"other","man","someCollege",NA,"inc300400",0
-"other","man","BA",NA,"inc300400",0
-"other","man","grad",NA,"inc300400",0
-"white","woman","noHS",NA,"inc300400",0
-"white","woman","HS",NA,"inc300400",0
-"white","woman","someCollege",NA,"inc300400",0
-"white","woman","BA",NA,"inc300400",0
-"white","woman","grad",NA,"inc300400",0
-"black","woman","noHS",NA,"inc300400",0
-"black","woman","HS",NA,"inc300400",0
-"black","woman","someCollege",NA,"inc300400",0
-"black","woman","BA",NA,"inc300400",0
-"black","woman","grad",NA,"inc300400",0
-"latino","woman","noHS",NA,"inc300400",0
-"latino","woman","HS",NA,"inc300400",0
-"latino","woman","someCollege",NA,"inc300400",0
-"latino","woman","BA",NA,"inc300400",0
-"latino","woman","grad",NA,"inc300400",0
-"other","woman","noHS",NA,"inc300400",0
-"other","woman","HS",NA,"inc300400",0
-"other","woman","someCollege",NA,"inc300400",0
-"other","woman","BA",NA,"inc300400",0
-"other","woman","grad",NA,"inc300400",0
-"white","manDep","noHS",NA,"inc300400",0
-"white","manDep","HS",NA,"inc300400",0
-"white","manDep","someCollege",NA,"inc300400",0
-"white","manDep","BA",NA,"inc300400",0
-"white","manDep","grad",NA,"inc300400",1
-"black","manDep","noHS",NA,"inc300400",0
-"black","manDep","HS",NA,"inc300400",0
-"black","manDep","someCollege",NA,"inc300400",0
-"black","manDep","BA",NA,"inc300400",0
-"black","manDep","grad",NA,"inc300400",0
-"latino","manDep","noHS",NA,"inc300400",0
-"latino","manDep","HS",NA,"inc300400",0
-"latino","manDep","someCollege",NA,"inc300400",0
-"latino","manDep","BA",NA,"inc300400",0
-"latino","manDep","grad",NA,"inc300400",0
-"other","manDep","noHS",NA,"inc300400",0
-"other","manDep","HS",NA,"inc300400",0
-"other","manDep","someCollege",NA,"inc300400",0
-"other","manDep","BA",NA,"inc300400",0
-"other","manDep","grad",NA,"inc300400",0
-"white","womanDep","noHS",NA,"inc300400",0
-"white","womanDep","HS",NA,"inc300400",0
-"white","womanDep","someCollege",NA,"inc300400",0
-"white","womanDep","BA",NA,"inc300400",0
-"white","womanDep","grad",NA,"inc300400",0
-"black","womanDep","noHS",NA,"inc300400",0
-"black","womanDep","HS",NA,"inc300400",0
-"black","womanDep","someCollege",NA,"inc300400",0
-"black","womanDep","BA",NA,"inc300400",0
-"black","womanDep","grad",NA,"inc300400",0
-"latino","womanDep","noHS",NA,"inc300400",0
-"latino","womanDep","HS",NA,"inc300400",0
-"latino","womanDep","someCollege",NA,"inc300400",0
-"latino","womanDep","BA",NA,"inc300400",0
-"latino","womanDep","grad",NA,"inc300400",0
-"other","womanDep","noHS",NA,"inc300400",0
-"other","womanDep","HS",NA,"inc300400",0
-"other","womanDep","someCollege",NA,"inc300400",0
-"other","womanDep","BA",NA,"inc300400",0
-"other","womanDep","grad",NA,"inc300400",0
-"white","couple","noHS","BA","inc300400",0
-"white","couple","noHS","grad","inc300400",0
-"white","couple","noHS","HS","inc300400",0
-"white","couple","noHS","noHS","inc300400",0
-"white","couple","noHS","someCollege","inc300400",0
-"white","couple","HS","BA","inc300400",0
-"white","couple","HS","grad","inc300400",0
-"white","couple","HS","HS","inc300400",0
-"white","couple","HS","noHS","inc300400",0
-"white","couple","HS","someCollege","inc300400",0
-"white","couple","someCollege","BA","inc300400",0
-"white","couple","someCollege","grad","inc300400",2
-"white","couple","someCollege","HS","inc300400",0
-"white","couple","someCollege","noHS","inc300400",0
-"white","couple","someCollege","someCollege","inc300400",0
-"white","couple","BA","BA","inc300400",0
-"white","couple","BA","grad","inc300400",0
-"white","couple","BA","HS","inc300400",0
-"white","couple","BA","noHS","inc300400",0
-"white","couple","BA","someCollege","inc300400",0
-"white","couple","grad","BA","inc300400",0
-"white","couple","grad","grad","inc300400",4
-"white","couple","grad","HS","inc300400",0
-"white","couple","grad","noHS","inc300400",0
-"white","couple","grad","someCollege","inc300400",0
-"black","couple","noHS","BA","inc300400",0
-"black","couple","noHS","grad","inc300400",0
-"black","couple","noHS","HS","inc300400",0
-"black","couple","noHS","noHS","inc300400",0
-"black","couple","noHS","someCollege","inc300400",0
-"black","couple","HS","BA","inc300400",0
-"black","couple","HS","grad","inc300400",0
-"black","couple","HS","HS","inc300400",0
-"black","couple","HS","noHS","inc300400",0
-"black","couple","HS","someCollege","inc300400",0
-"black","couple","someCollege","BA","inc300400",0
-"black","couple","someCollege","grad","inc300400",0
-"black","couple","someCollege","HS","inc300400",0
-"black","couple","someCollege","noHS","inc300400",0
-"black","couple","someCollege","someCollege","inc300400",0
-"black","couple","BA","BA","inc300400",0
-"black","couple","BA","grad","inc300400",0
-"black","couple","BA","HS","inc300400",0
-"black","couple","BA","noHS","inc300400",0
-"black","couple","BA","someCollege","inc300400",0
-"black","couple","grad","BA","inc300400",0
-"black","couple","grad","grad","inc300400",0
-"black","couple","grad","HS","inc300400",0
-"black","couple","grad","noHS","inc300400",0
-"black","couple","grad","someCollege","inc300400",0
-"latino","couple","noHS","BA","inc300400",0
-"latino","couple","noHS","grad","inc300400",0
-"latino","couple","noHS","HS","inc300400",0
-"latino","couple","noHS","noHS","inc300400",0
-"latino","couple","noHS","someCollege","inc300400",0
-"latino","couple","HS","BA","inc300400",0
-"latino","couple","HS","grad","inc300400",0
-"latino","couple","HS","HS","inc300400",0
-"latino","couple","HS","noHS","inc300400",0
-"latino","couple","HS","someCollege","inc300400",0
-"latino","couple","someCollege","BA","inc300400",2
-"latino","couple","someCollege","grad","inc300400",0
-"latino","couple","someCollege","HS","inc300400",0
-"latino","couple","someCollege","noHS","inc300400",0
-"latino","couple","someCollege","someCollege","inc300400",0
-"latino","couple","BA","BA","inc300400",0
-"latino","couple","BA","grad","inc300400",0
-"latino","couple","BA","HS","inc300400",0
-"latino","couple","BA","noHS","inc300400",0
-"latino","couple","BA","someCollege","inc300400",0
-"latino","couple","grad","BA","inc300400",0
-"latino","couple","grad","grad","inc300400",0
-"latino","couple","grad","HS","inc300400",0
-"latino","couple","grad","noHS","inc300400",0
-"latino","couple","grad","someCollege","inc300400",0
-"other","couple","noHS","BA","inc300400",0
-"other","couple","noHS","grad","inc300400",0
-"other","couple","noHS","HS","inc300400",0
-"other","couple","noHS","noHS","inc300400",0
-"other","couple","noHS","someCollege","inc300400",0
-"other","couple","HS","BA","inc300400",0
-"other","couple","HS","grad","inc300400",0
-"other","couple","HS","HS","inc300400",0
-"other","couple","HS","noHS","inc300400",0
-"other","couple","HS","someCollege","inc300400",0
-"other","couple","someCollege","BA","inc300400",0
-"other","couple","someCollege","grad","inc300400",0
-"other","couple","someCollege","HS","inc300400",0
-"other","couple","someCollege","noHS","inc300400",0
-"other","couple","someCollege","someCollege","inc300400",0
-"other","couple","BA","BA","inc300400",0
-"other","couple","BA","grad","inc300400",0
-"other","couple","BA","HS","inc300400",0
-"other","couple","BA","noHS","inc300400",0
-"other","couple","BA","someCollege","inc300400",0
-"other","couple","grad","BA","inc300400",0
-"other","couple","grad","grad","inc300400",0
-"other","couple","grad","HS","inc300400",0
-"other","couple","grad","noHS","inc300400",0
-"other","couple","grad","someCollege","inc300400",0
-"white","man","noHS",NA,"inc400",0
-"white","man","HS",NA,"inc400",0
-"white","man","someCollege",NA,"inc400",0
-"white","man","BA",NA,"inc400",0
-"white","man","grad",NA,"inc400",1
-"black","man","noHS",NA,"inc400",0
-"black","man","HS",NA,"inc400",0
-"black","man","someCollege",NA,"inc400",0
-"black","man","BA",NA,"inc400",0
-"black","man","grad",NA,"inc400",0
-"latino","man","noHS",NA,"inc400",0
-"latino","man","HS",NA,"inc400",0
-"latino","man","someCollege",NA,"inc400",0
-"latino","man","BA",NA,"inc400",0
-"latino","man","grad",NA,"inc400",0
-"other","man","noHS",NA,"inc400",0
-"other","man","HS",NA,"inc400",0
-"other","man","someCollege",NA,"inc400",0
-"other","man","BA",NA,"inc400",0
-"other","man","grad",NA,"inc400",0
-"white","woman","noHS",NA,"inc400",0
-"white","woman","HS",NA,"inc400",0
-"white","woman","someCollege",NA,"inc400",0
-"white","woman","BA",NA,"inc400",0
-"white","woman","grad",NA,"inc400",0
-"black","woman","noHS",NA,"inc400",0
-"black","woman","HS",NA,"inc400",0
-"black","woman","someCollege",NA,"inc400",0
-"black","woman","BA",NA,"inc400",0
-"black","woman","grad",NA,"inc400",0
-"latino","woman","noHS",NA,"inc400",0
-"latino","woman","HS",NA,"inc400",0
-"latino","woman","someCollege",NA,"inc400",0
-"latino","woman","BA",NA,"inc400",0
-"latino","woman","grad",NA,"inc400",0
-"other","woman","noHS",NA,"inc400",0
-"other","woman","HS",NA,"inc400",0
-"other","woman","someCollege",NA,"inc400",0
-"other","woman","BA",NA,"inc400",0
-"other","woman","grad",NA,"inc400",0
-"white","manDep","noHS",NA,"inc400",0
-"white","manDep","HS",NA,"inc400",0
-"white","manDep","someCollege",NA,"inc400",0
-"white","manDep","BA",NA,"inc400",0
-"white","manDep","grad",NA,"inc400",0
-"black","manDep","noHS",NA,"inc400",0
-"black","manDep","HS",NA,"inc400",0
-"black","manDep","someCollege",NA,"inc400",0
-"black","manDep","BA",NA,"inc400",0
-"black","manDep","grad",NA,"inc400",0
-"latino","manDep","noHS",NA,"inc400",0
-"latino","manDep","HS",NA,"inc400",0
-"latino","manDep","someCollege",NA,"inc400",0
-"latino","manDep","BA",NA,"inc400",0
-"latino","manDep","grad",NA,"inc400",0
-"other","manDep","noHS",NA,"inc400",0
-"other","manDep","HS",NA,"inc400",0
-"other","manDep","someCollege",NA,"inc400",0
-"other","manDep","BA",NA,"inc400",0
-"other","manDep","grad",NA,"inc400",0
-"white","womanDep","noHS",NA,"inc400",0
-"white","womanDep","HS",NA,"inc400",0
-"white","womanDep","someCollege",NA,"inc400",0
-"white","womanDep","BA",NA,"inc400",0
-"white","womanDep","grad",NA,"inc400",0
-"black","womanDep","noHS",NA,"inc400",0
-"black","womanDep","HS",NA,"inc400",0
-"black","womanDep","someCollege",NA,"inc400",0
-"black","womanDep","BA",NA,"inc400",0
-"black","womanDep","grad",NA,"inc400",0
-"latino","womanDep","noHS",NA,"inc400",0
-"latino","womanDep","HS",NA,"inc400",0
-"latino","womanDep","someCollege",NA,"inc400",0
-"latino","womanDep","BA",NA,"inc400",0
-"latino","womanDep","grad",NA,"inc400",0
-"other","womanDep","noHS",NA,"inc400",0
-"other","womanDep","HS",NA,"inc400",0
-"other","womanDep","someCollege",NA,"inc400",0
-"other","womanDep","BA",NA,"inc400",0
-"other","womanDep","grad",NA,"inc400",0
-"white","couple","noHS","BA","inc400",0
-"white","couple","noHS","grad","inc400",0
-"white","couple","noHS","HS","inc400",0
-"white","couple","noHS","noHS","inc400",0
-"white","couple","noHS","someCollege","inc400",0
-"white","couple","HS","BA","inc400",0
-"white","couple","HS","grad","inc400",0
-"white","couple","HS","HS","inc400",0
-"white","couple","HS","noHS","inc400",0
-"white","couple","HS","someCollege","inc400",0
-"white","couple","someCollege","BA","inc400",0
-"white","couple","someCollege","grad","inc400",0
-"white","couple","someCollege","HS","inc400",0
-"white","couple","someCollege","noHS","inc400",0
-"white","couple","someCollege","someCollege","inc400",0
-"white","couple","BA","BA","inc400",2
-"white","couple","BA","grad","inc400",0
-"white","couple","BA","HS","inc400",0
-"white","couple","BA","noHS","inc400",0
-"white","couple","BA","someCollege","inc400",2
-"white","couple","grad","BA","inc400",0
-"white","couple","grad","grad","inc400",0
-"white","couple","grad","HS","inc400",2
-"white","couple","grad","noHS","inc400",0
-"white","couple","grad","someCollege","inc400",0
-"black","couple","noHS","BA","inc400",0
-"black","couple","noHS","grad","inc400",0
-"black","couple","noHS","HS","inc400",0
-"black","couple","noHS","noHS","inc400",0
-"black","couple","noHS","someCollege","inc400",0
-"black","couple","HS","BA","inc400",0
-"black","couple","HS","grad","inc400",0
-"black","couple","HS","HS","inc400",0
-"black","couple","HS","noHS","inc400",0
-"black","couple","HS","someCollege","inc400",0
-"black","couple","someCollege","BA","inc400",0
-"black","couple","someCollege","grad","inc400",0
-"black","couple","someCollege","HS","inc400",0
-"black","couple","someCollege","noHS","inc400",0
-"black","couple","someCollege","someCollege","inc400",0
-"black","couple","BA","BA","inc400",0
-"black","couple","BA","grad","inc400",0
-"black","couple","BA","HS","inc400",0
-"black","couple","BA","noHS","inc400",0
-"black","couple","BA","someCollege","inc400",0
-"black","couple","grad","BA","inc400",0
-"black","couple","grad","grad","inc400",0
-"black","couple","grad","HS","inc400",0
-"black","couple","grad","noHS","inc400",0
-"black","couple","grad","someCollege","inc400",0
-"latino","couple","noHS","BA","inc400",0
-"latino","couple","noHS","grad","inc400",0
-"latino","couple","noHS","HS","inc400",0
-"latino","couple","noHS","noHS","inc400",0
-"latino","couple","noHS","someCollege","inc400",0
-"latino","couple","HS","BA","inc400",0
-"latino","couple","HS","grad","inc400",0
-"latino","couple","HS","HS","inc400",0
-"latino","couple","HS","noHS","inc400",0
-"latino","couple","HS","someCollege","inc400",0
-"latino","couple","someCollege","BA","inc400",0
-"latino","couple","someCollege","grad","inc400",0
-"latino","couple","someCollege","HS","inc400",0
-"latino","couple","someCollege","noHS","inc400",0
-"latino","couple","someCollege","someCollege","inc400",0
-"latino","couple","BA","BA","inc400",0
-"latino","couple","BA","grad","inc400",0
-"latino","couple","BA","HS","inc400",0
-"latino","couple","BA","noHS","inc400",0
-"latino","couple","BA","someCollege","inc400",0
-"latino","couple","grad","BA","inc400",0
-"latino","couple","grad","grad","inc400",0
-"latino","couple","grad","HS","inc400",0
-"latino","couple","grad","noHS","inc400",0
-"latino","couple","grad","someCollege","inc400",0
-"other","couple","noHS","BA","inc400",0
-"other","couple","noHS","grad","inc400",0
-"other","couple","noHS","HS","inc400",0
-"other","couple","noHS","noHS","inc400",0
-"other","couple","noHS","someCollege","inc400",0
-"other","couple","HS","BA","inc400",0
-"other","couple","HS","grad","inc400",0
-"other","couple","HS","HS","inc400",0
-"other","couple","HS","noHS","inc400",0
-"other","couple","HS","someCollege","inc400",0
-"other","couple","someCollege","BA","inc400",0
-"other","couple","someCollege","grad","inc400",0
-"other","couple","someCollege","HS","inc400",0
-"other","couple","someCollege","noHS","inc400",0
-"other","couple","someCollege","someCollege","inc400",0
-"other","couple","BA","BA","inc400",0
-"other","couple","BA","grad","inc400",0
-"other","couple","BA","HS","inc400",0
-"other","couple","BA","noHS","inc400",0
-"other","couple","BA","someCollege","inc400",0
-"other","couple","grad","BA","inc400",0
-"other","couple","grad","grad","inc400",2
-"other","couple","grad","HS","inc400",0
-"other","couple","grad","noHS","inc400",0
-"other","couple","grad","someCollege","inc400",0
+"race","income","icon","gender","familyType","education"
+"white","inc020",4,"man","single","noHS"
+"white","inc020",7,"man","single","HS"
+"white","inc020",7,"man","single","someCollege"
+"white","inc020",4,"man","single","BA"
+"white","inc020",1,"man","single","grad"
+"black","inc020",2,"man","single","noHS"
+"black","inc020",2,"man","single","HS"
+"black","inc020",2,"man","single","someCollege"
+"black","inc020",0,"man","single","BA"
+"black","inc020",0,"man","single","grad"
+"latino","inc020",3,"man","single","noHS"
+"latino","inc020",2,"man","single","HS"
+"latino","inc020",1,"man","single","someCollege"
+"latino","inc020",0,"man","single","BA"
+"latino","inc020",0,"man","single","grad"
+"other","inc020",0,"man","single","noHS"
+"other","inc020",1,"man","single","HS"
+"other","inc020",1,"man","single","someCollege"
+"other","inc020",0,"man","single","BA"
+"other","inc020",0,"man","single","grad"
+"white","inc020",6,"woman","single","noHS"
+"white","inc020",12,"woman","single","HS"
+"white","inc020",10,"woman","single","someCollege"
+"white","inc020",4,"woman","single","BA"
+"white","inc020",1,"woman","single","grad"
+"black","inc020",2,"woman","single","noHS"
+"black","inc020",3,"woman","single","HS"
+"black","inc020",2,"woman","single","someCollege"
+"black","inc020",1,"woman","single","BA"
+"black","inc020",1,"woman","single","grad"
+"latino","inc020",2,"woman","single","noHS"
+"latino","inc020",1,"woman","single","HS"
+"latino","inc020",1,"woman","single","someCollege"
+"latino","inc020",0,"woman","single","BA"
+"latino","inc020",0,"woman","single","grad"
+"other","inc020",1,"woman","single","noHS"
+"other","inc020",1,"woman","single","HS"
+"other","inc020",1,"woman","single","someCollege"
+"other","inc020",1,"woman","single","BA"
+"other","inc020",0,"woman","single","grad"
+"white","inc020",0,"man","single with dependent","noHS"
+"white","inc020",0,"man","single with dependent","HS"
+"white","inc020",0,"man","single with dependent","someCollege"
+"white","inc020",1,"man","single with dependent","BA"
+"white","inc020",0,"man","single with dependent","grad"
+"black","inc020",0,"man","single with dependent","noHS"
+"black","inc020",1,"man","single with dependent","HS"
+"black","inc020",0,"man","single with dependent","someCollege"
+"black","inc020",0,"man","single with dependent","BA"
+"black","inc020",0,"man","single with dependent","grad"
+"latino","inc020",1,"man","single with dependent","noHS"
+"latino","inc020",0,"man","single with dependent","HS"
+"latino","inc020",0,"man","single with dependent","someCollege"
+"latino","inc020",0,"man","single with dependent","BA"
+"latino","inc020",0,"man","single with dependent","grad"
+"other","inc020",0,"man","single with dependent","noHS"
+"other","inc020",0,"man","single with dependent","HS"
+"other","inc020",1,"man","single with dependent","someCollege"
+"other","inc020",0,"man","single with dependent","BA"
+"other","inc020",0,"man","single with dependent","grad"
+"white","inc020",1,"woman","single with dependent","noHS"
+"white","inc020",3,"woman","single with dependent","HS"
+"white","inc020",4,"woman","single with dependent","someCollege"
+"white","inc020",1,"woman","single with dependent","BA"
+"white","inc020",0,"woman","single with dependent","grad"
+"black","inc020",2,"woman","single with dependent","noHS"
+"black","inc020",3,"woman","single with dependent","HS"
+"black","inc020",2,"woman","single with dependent","someCollege"
+"black","inc020",0,"woman","single with dependent","BA"
+"black","inc020",0,"woman","single with dependent","grad"
+"latino","inc020",3,"woman","single with dependent","noHS"
+"latino","inc020",1,"woman","single with dependent","HS"
+"latino","inc020",1,"woman","single with dependent","someCollege"
+"latino","inc020",0,"woman","single with dependent","BA"
+"latino","inc020",0,"woman","single with dependent","grad"
+"other","inc020",0,"woman","single with dependent","noHS"
+"other","inc020",1,"woman","single with dependent","HS"
+"other","inc020",0,"woman","single with dependent","someCollege"
+"other","inc020",0,"woman","single with dependent","BA"
+"other","inc020",0,"woman","single with dependent","grad"
+"white","inc2040",1,"man","single","noHS"
+"white","inc2040",6,"man","single","HS"
+"white","inc2040",7,"man","single","someCollege"
+"white","inc2040",5,"man","single","BA"
+"white","inc2040",2,"man","single","grad"
+"black","inc2040",0,"man","single","noHS"
+"black","inc2040",2,"man","single","HS"
+"black","inc2040",1,"man","single","someCollege"
+"black","inc2040",1,"man","single","BA"
+"black","inc2040",0,"man","single","grad"
+"latino","inc2040",2,"man","single","noHS"
+"latino","inc2040",2,"man","single","HS"
+"latino","inc2040",1,"man","single","someCollege"
+"latino","inc2040",0,"man","single","BA"
+"latino","inc2040",0,"man","single","grad"
+"other","inc2040",0,"man","single","noHS"
+"other","inc2040",0,"man","single","HS"
+"other","inc2040",1,"man","single","someCollege"
+"other","inc2040",0,"man","single","BA"
+"other","inc2040",0,"man","single","grad"
+"white","inc2040",2,"woman","single","noHS"
+"white","inc2040",8,"woman","single","HS"
+"white","inc2040",6,"woman","single","someCollege"
+"white","inc2040",7,"woman","single","BA"
+"white","inc2040",2,"woman","single","grad"
+"black","inc2040",1,"woman","single","noHS"
+"black","inc2040",1,"woman","single","HS"
+"black","inc2040",2,"woman","single","someCollege"
+"black","inc2040",0,"woman","single","BA"
+"black","inc2040",0,"woman","single","grad"
+"latino","inc2040",0,"woman","single","noHS"
+"latino","inc2040",1,"woman","single","HS"
+"latino","inc2040",1,"woman","single","someCollege"
+"latino","inc2040",0,"woman","single","BA"
+"latino","inc2040",0,"woman","single","grad"
+"other","inc2040",0,"woman","single","noHS"
+"other","inc2040",0,"woman","single","HS"
+"other","inc2040",1,"woman","single","someCollege"
+"other","inc2040",0,"woman","single","BA"
+"other","inc2040",0,"woman","single","grad"
+"white","inc2040",0,"man","single with dependent","noHS"
+"white","inc2040",1,"man","single with dependent","HS"
+"white","inc2040",2,"man","single with dependent","someCollege"
+"white","inc2040",1,"man","single with dependent","BA"
+"white","inc2040",0,"man","single with dependent","grad"
+"black","inc2040",1,"man","single with dependent","noHS"
+"black","inc2040",0,"man","single with dependent","HS"
+"black","inc2040",0,"man","single with dependent","someCollege"
+"black","inc2040",0,"man","single with dependent","BA"
+"black","inc2040",0,"man","single with dependent","grad"
+"latino","inc2040",0,"man","single with dependent","noHS"
+"latino","inc2040",1,"man","single with dependent","HS"
+"latino","inc2040",0,"man","single with dependent","someCollege"
+"latino","inc2040",0,"man","single with dependent","BA"
+"latino","inc2040",0,"man","single with dependent","grad"
+"other","inc2040",0,"man","single with dependent","noHS"
+"other","inc2040",1,"man","single with dependent","HS"
+"other","inc2040",0,"man","single with dependent","someCollege"
+"other","inc2040",0,"man","single with dependent","BA"
+"other","inc2040",0,"man","single with dependent","grad"
+"white","inc2040",1,"woman","single with dependent","noHS"
+"white","inc2040",3,"woman","single with dependent","HS"
+"white","inc2040",3,"woman","single with dependent","someCollege"
+"white","inc2040",1,"woman","single with dependent","BA"
+"white","inc2040",1,"woman","single with dependent","grad"
+"black","inc2040",0,"woman","single with dependent","noHS"
+"black","inc2040",2,"woman","single with dependent","HS"
+"black","inc2040",3,"woman","single with dependent","someCollege"
+"black","inc2040",1,"woman","single with dependent","BA"
+"black","inc2040",0,"woman","single with dependent","grad"
+"latino","inc2040",1,"woman","single with dependent","noHS"
+"latino","inc2040",2,"woman","single with dependent","HS"
+"latino","inc2040",1,"woman","single with dependent","someCollege"
+"latino","inc2040",0,"woman","single with dependent","BA"
+"latino","inc2040",0,"woman","single with dependent","grad"
+"other","inc2040",0,"woman","single with dependent","noHS"
+"other","inc2040",0,"woman","single with dependent","HS"
+"other","inc2040",1,"woman","single with dependent","someCollege"
+"other","inc2040",0,"woman","single with dependent","BA"
+"other","inc2040",0,"woman","single with dependent","grad"
+"white","inc4060",0,"man","single","noHS"
+"white","inc4060",4,"man","single","HS"
+"white","inc4060",4,"man","single","someCollege"
+"white","inc4060",5,"man","single","BA"
+"white","inc4060",1,"man","single","grad"
+"black","inc4060",0,"man","single","noHS"
+"black","inc4060",1,"man","single","HS"
+"black","inc4060",1,"man","single","someCollege"
+"black","inc4060",0,"man","single","BA"
+"black","inc4060",0,"man","single","grad"
+"latino","inc4060",0,"man","single","noHS"
+"latino","inc4060",0,"man","single","HS"
+"latino","inc4060",1,"man","single","someCollege"
+"latino","inc4060",0,"man","single","BA"
+"latino","inc4060",0,"man","single","grad"
+"other","inc4060",1,"man","single","noHS"
+"other","inc4060",0,"man","single","HS"
+"other","inc4060",0,"man","single","someCollege"
+"other","inc4060",0,"man","single","BA"
+"other","inc4060",1,"man","single","grad"
+"white","inc4060",0,"woman","single","noHS"
+"white","inc4060",1,"woman","single","HS"
+"white","inc4060",5,"woman","single","someCollege"
+"white","inc4060",3,"woman","single","BA"
+"white","inc4060",2,"woman","single","grad"
+"black","inc4060",0,"woman","single","noHS"
+"black","inc4060",1,"woman","single","HS"
+"black","inc4060",1,"woman","single","someCollege"
+"black","inc4060",0,"woman","single","BA"
+"black","inc4060",0,"woman","single","grad"
+"latino","inc4060",0,"woman","single","noHS"
+"latino","inc4060",0,"woman","single","HS"
+"latino","inc4060",0,"woman","single","someCollege"
+"latino","inc4060",1,"woman","single","BA"
+"latino","inc4060",1,"woman","single","grad"
+"other","inc4060",0,"woman","single","noHS"
+"other","inc4060",0,"woman","single","HS"
+"other","inc4060",0,"woman","single","someCollege"
+"other","inc4060",1,"woman","single","BA"
+"other","inc4060",0,"woman","single","grad"
+"white","inc4060",1,"man","single with dependent","noHS"
+"white","inc4060",2,"man","single with dependent","HS"
+"white","inc4060",1,"man","single with dependent","someCollege"
+"white","inc4060",0,"man","single with dependent","BA"
+"white","inc4060",0,"man","single with dependent","grad"
+"black","inc4060",0,"man","single with dependent","noHS"
+"black","inc4060",0,"man","single with dependent","HS"
+"black","inc4060",0,"man","single with dependent","someCollege"
+"black","inc4060",0,"man","single with dependent","BA"
+"black","inc4060",0,"man","single with dependent","grad"
+"latino","inc4060",0,"man","single with dependent","noHS"
+"latino","inc4060",0,"man","single with dependent","HS"
+"latino","inc4060",1,"man","single with dependent","someCollege"
+"latino","inc4060",0,"man","single with dependent","BA"
+"latino","inc4060",0,"man","single with dependent","grad"
+"other","inc4060",0,"man","single with dependent","noHS"
+"other","inc4060",0,"man","single with dependent","HS"
+"other","inc4060",0,"man","single with dependent","someCollege"
+"other","inc4060",0,"man","single with dependent","BA"
+"other","inc4060",0,"man","single with dependent","grad"
+"white","inc4060",1,"woman","single with dependent","noHS"
+"white","inc4060",2,"woman","single with dependent","HS"
+"white","inc4060",1,"woman","single with dependent","someCollege"
+"white","inc4060",2,"woman","single with dependent","BA"
+"white","inc4060",1,"woman","single with dependent","grad"
+"black","inc4060",0,"woman","single with dependent","noHS"
+"black","inc4060",1,"woman","single with dependent","HS"
+"black","inc4060",2,"woman","single with dependent","someCollege"
+"black","inc4060",0,"woman","single with dependent","BA"
+"black","inc4060",0,"woman","single with dependent","grad"
+"latino","inc4060",0,"woman","single with dependent","noHS"
+"latino","inc4060",1,"woman","single with dependent","HS"
+"latino","inc4060",1,"woman","single with dependent","someCollege"
+"latino","inc4060",0,"woman","single with dependent","BA"
+"latino","inc4060",0,"woman","single with dependent","grad"
+"other","inc4060",0,"woman","single with dependent","noHS"
+"other","inc4060",0,"woman","single with dependent","HS"
+"other","inc4060",0,"woman","single with dependent","someCollege"
+"other","inc4060",0,"woman","single with dependent","BA"
+"other","inc4060",0,"woman","single with dependent","grad"
+"white","inc6080",0,"man","single","noHS"
+"white","inc6080",2,"man","single","HS"
+"white","inc6080",3,"man","single","someCollege"
+"white","inc6080",2,"man","single","BA"
+"white","inc6080",1,"man","single","grad"
+"black","inc6080",0,"man","single","noHS"
+"black","inc6080",0,"man","single","HS"
+"black","inc6080",0,"man","single","someCollege"
+"black","inc6080",0,"man","single","BA"
+"black","inc6080",1,"man","single","grad"
+"latino","inc6080",0,"man","single","noHS"
+"latino","inc6080",0,"man","single","HS"
+"latino","inc6080",0,"man","single","someCollege"
+"latino","inc6080",0,"man","single","BA"
+"latino","inc6080",0,"man","single","grad"
+"other","inc6080",0,"man","single","noHS"
+"other","inc6080",0,"man","single","HS"
+"other","inc6080",0,"man","single","someCollege"
+"other","inc6080",1,"man","single","BA"
+"other","inc6080",0,"man","single","grad"
+"white","inc6080",0,"woman","single","noHS"
+"white","inc6080",1,"woman","single","HS"
+"white","inc6080",2,"woman","single","someCollege"
+"white","inc6080",3,"woman","single","BA"
+"white","inc6080",1,"woman","single","grad"
+"black","inc6080",0,"woman","single","noHS"
+"black","inc6080",0,"woman","single","HS"
+"black","inc6080",0,"woman","single","someCollege"
+"black","inc6080",0,"woman","single","BA"
+"black","inc6080",1,"woman","single","grad"
+"latino","inc6080",0,"woman","single","noHS"
+"latino","inc6080",0,"woman","single","HS"
+"latino","inc6080",0,"woman","single","someCollege"
+"latino","inc6080",0,"woman","single","BA"
+"latino","inc6080",0,"woman","single","grad"
+"other","inc6080",0,"woman","single","noHS"
+"other","inc6080",0,"woman","single","HS"
+"other","inc6080",0,"woman","single","someCollege"
+"other","inc6080",0,"woman","single","BA"
+"other","inc6080",0,"woman","single","grad"
+"white","inc6080",0,"man","single with dependent","noHS"
+"white","inc6080",1,"man","single with dependent","HS"
+"white","inc6080",1,"man","single with dependent","someCollege"
+"white","inc6080",0,"man","single with dependent","BA"
+"white","inc6080",0,"man","single with dependent","grad"
+"black","inc6080",0,"man","single with dependent","noHS"
+"black","inc6080",0,"man","single with dependent","HS"
+"black","inc6080",1,"man","single with dependent","someCollege"
+"black","inc6080",0,"man","single with dependent","BA"
+"black","inc6080",0,"man","single with dependent","grad"
+"latino","inc6080",0,"man","single with dependent","noHS"
+"latino","inc6080",0,"man","single with dependent","HS"
+"latino","inc6080",0,"man","single with dependent","someCollege"
+"latino","inc6080",0,"man","single with dependent","BA"
+"latino","inc6080",0,"man","single with dependent","grad"
+"other","inc6080",0,"man","single with dependent","noHS"
+"other","inc6080",0,"man","single with dependent","HS"
+"other","inc6080",0,"man","single with dependent","someCollege"
+"other","inc6080",0,"man","single with dependent","BA"
+"other","inc6080",0,"man","single with dependent","grad"
+"white","inc6080",1,"woman","single with dependent","noHS"
+"white","inc6080",1,"woman","single with dependent","HS"
+"white","inc6080",2,"woman","single with dependent","someCollege"
+"white","inc6080",0,"woman","single with dependent","BA"
+"white","inc6080",0,"woman","single with dependent","grad"
+"black","inc6080",0,"woman","single with dependent","noHS"
+"black","inc6080",0,"woman","single with dependent","HS"
+"black","inc6080",0,"woman","single with dependent","someCollege"
+"black","inc6080",0,"woman","single with dependent","BA"
+"black","inc6080",1,"woman","single with dependent","grad"
+"latino","inc6080",0,"woman","single with dependent","noHS"
+"latino","inc6080",0,"woman","single with dependent","HS"
+"latino","inc6080",0,"woman","single with dependent","someCollege"
+"latino","inc6080",1,"woman","single with dependent","BA"
+"latino","inc6080",0,"woman","single with dependent","grad"
+"other","inc6080",0,"woman","single with dependent","noHS"
+"other","inc6080",1,"woman","single with dependent","HS"
+"other","inc6080",0,"woman","single with dependent","someCollege"
+"other","inc6080",0,"woman","single with dependent","BA"
+"other","inc6080",0,"woman","single with dependent","grad"
+"white","inc80100",0,"man","single","noHS"
+"white","inc80100",1,"man","single","HS"
+"white","inc80100",0,"man","single","someCollege"
+"white","inc80100",0,"man","single","BA"
+"white","inc80100",1,"man","single","grad"
+"black","inc80100",0,"man","single","noHS"
+"black","inc80100",0,"man","single","HS"
+"black","inc80100",0,"man","single","someCollege"
+"black","inc80100",1,"man","single","BA"
+"black","inc80100",0,"man","single","grad"
+"latino","inc80100",0,"man","single","noHS"
+"latino","inc80100",0,"man","single","HS"
+"latino","inc80100",0,"man","single","someCollege"
+"latino","inc80100",1,"man","single","BA"
+"latino","inc80100",0,"man","single","grad"
+"other","inc80100",0,"man","single","noHS"
+"other","inc80100",0,"man","single","HS"
+"other","inc80100",0,"man","single","someCollege"
+"other","inc80100",0,"man","single","BA"
+"other","inc80100",0,"man","single","grad"
+"white","inc80100",0,"woman","single","noHS"
+"white","inc80100",0,"woman","single","HS"
+"white","inc80100",1,"woman","single","someCollege"
+"white","inc80100",1,"woman","single","BA"
+"white","inc80100",1,"woman","single","grad"
+"black","inc80100",0,"woman","single","noHS"
+"black","inc80100",0,"woman","single","HS"
+"black","inc80100",0,"woman","single","someCollege"
+"black","inc80100",1,"woman","single","BA"
+"black","inc80100",0,"woman","single","grad"
+"latino","inc80100",0,"woman","single","noHS"
+"latino","inc80100",0,"woman","single","HS"
+"latino","inc80100",0,"woman","single","someCollege"
+"latino","inc80100",0,"woman","single","BA"
+"latino","inc80100",0,"woman","single","grad"
+"other","inc80100",0,"woman","single","noHS"
+"other","inc80100",0,"woman","single","HS"
+"other","inc80100",0,"woman","single","someCollege"
+"other","inc80100",0,"woman","single","BA"
+"other","inc80100",0,"woman","single","grad"
+"white","inc80100",0,"man","single with dependent","noHS"
+"white","inc80100",1,"man","single with dependent","HS"
+"white","inc80100",0,"man","single with dependent","someCollege"
+"white","inc80100",0,"man","single with dependent","BA"
+"white","inc80100",0,"man","single with dependent","grad"
+"black","inc80100",0,"man","single with dependent","noHS"
+"black","inc80100",0,"man","single with dependent","HS"
+"black","inc80100",0,"man","single with dependent","someCollege"
+"black","inc80100",0,"man","single with dependent","BA"
+"black","inc80100",0,"man","single with dependent","grad"
+"latino","inc80100",0,"man","single with dependent","noHS"
+"latino","inc80100",0,"man","single with dependent","HS"
+"latino","inc80100",0,"man","single with dependent","someCollege"
+"latino","inc80100",0,"man","single with dependent","BA"
+"latino","inc80100",0,"man","single with dependent","grad"
+"other","inc80100",0,"man","single with dependent","noHS"
+"other","inc80100",0,"man","single with dependent","HS"
+"other","inc80100",0,"man","single with dependent","someCollege"
+"other","inc80100",0,"man","single with dependent","BA"
+"other","inc80100",1,"man","single with dependent","grad"
+"white","inc80100",0,"woman","single with dependent","noHS"
+"white","inc80100",1,"woman","single with dependent","HS"
+"white","inc80100",1,"woman","single with dependent","someCollege"
+"white","inc80100",1,"woman","single with dependent","BA"
+"white","inc80100",0,"woman","single with dependent","grad"
+"black","inc80100",0,"woman","single with dependent","noHS"
+"black","inc80100",0,"woman","single with dependent","HS"
+"black","inc80100",0,"woman","single with dependent","someCollege"
+"black","inc80100",0,"woman","single with dependent","BA"
+"black","inc80100",0,"woman","single with dependent","grad"
+"latino","inc80100",0,"woman","single with dependent","noHS"
+"latino","inc80100",0,"woman","single with dependent","HS"
+"latino","inc80100",1,"woman","single with dependent","someCollege"
+"latino","inc80100",0,"woman","single with dependent","BA"
+"latino","inc80100",0,"woman","single with dependent","grad"
+"other","inc80100",0,"woman","single with dependent","noHS"
+"other","inc80100",0,"woman","single with dependent","HS"
+"other","inc80100",0,"woman","single with dependent","someCollege"
+"other","inc80100",0,"woman","single with dependent","BA"
+"other","inc80100",0,"woman","single with dependent","grad"
+"white","inc100125",0,"man","single","noHS"
+"white","inc100125",0,"man","single","HS"
+"white","inc100125",1,"man","single","someCollege"
+"white","inc100125",1,"man","single","BA"
+"white","inc100125",0,"man","single","grad"
+"black","inc100125",0,"man","single","noHS"
+"black","inc100125",0,"man","single","HS"
+"black","inc100125",0,"man","single","someCollege"
+"black","inc100125",0,"man","single","BA"
+"black","inc100125",0,"man","single","grad"
+"latino","inc100125",0,"man","single","noHS"
+"latino","inc100125",0,"man","single","HS"
+"latino","inc100125",0,"man","single","someCollege"
+"latino","inc100125",0,"man","single","BA"
+"latino","inc100125",0,"man","single","grad"
+"other","inc100125",0,"man","single","noHS"
+"other","inc100125",0,"man","single","HS"
+"other","inc100125",0,"man","single","someCollege"
+"other","inc100125",0,"man","single","BA"
+"other","inc100125",1,"man","single","grad"
+"white","inc100125",0,"woman","single","noHS"
+"white","inc100125",1,"woman","single","HS"
+"white","inc100125",0,"woman","single","someCollege"
+"white","inc100125",0,"woman","single","BA"
+"white","inc100125",1,"woman","single","grad"
+"black","inc100125",0,"woman","single","noHS"
+"black","inc100125",0,"woman","single","HS"
+"black","inc100125",0,"woman","single","someCollege"
+"black","inc100125",0,"woman","single","BA"
+"black","inc100125",0,"woman","single","grad"
+"latino","inc100125",0,"woman","single","noHS"
+"latino","inc100125",0,"woman","single","HS"
+"latino","inc100125",0,"woman","single","someCollege"
+"latino","inc100125",0,"woman","single","BA"
+"latino","inc100125",0,"woman","single","grad"
+"other","inc100125",0,"woman","single","noHS"
+"other","inc100125",0,"woman","single","HS"
+"other","inc100125",0,"woman","single","someCollege"
+"other","inc100125",0,"woman","single","BA"
+"other","inc100125",0,"woman","single","grad"
+"white","inc100125",0,"man","single with dependent","noHS"
+"white","inc100125",0,"man","single with dependent","HS"
+"white","inc100125",0,"man","single with dependent","someCollege"
+"white","inc100125",1,"man","single with dependent","BA"
+"white","inc100125",0,"man","single with dependent","grad"
+"black","inc100125",0,"man","single with dependent","noHS"
+"black","inc100125",0,"man","single with dependent","HS"
+"black","inc100125",0,"man","single with dependent","someCollege"
+"black","inc100125",0,"man","single with dependent","BA"
+"black","inc100125",0,"man","single with dependent","grad"
+"latino","inc100125",0,"man","single with dependent","noHS"
+"latino","inc100125",1,"man","single with dependent","HS"
+"latino","inc100125",0,"man","single with dependent","someCollege"
+"latino","inc100125",0,"man","single with dependent","BA"
+"latino","inc100125",0,"man","single with dependent","grad"
+"other","inc100125",0,"man","single with dependent","noHS"
+"other","inc100125",0,"man","single with dependent","HS"
+"other","inc100125",0,"man","single with dependent","someCollege"
+"other","inc100125",0,"man","single with dependent","BA"
+"other","inc100125",0,"man","single with dependent","grad"
+"white","inc100125",0,"woman","single with dependent","noHS"
+"white","inc100125",0,"woman","single with dependent","HS"
+"white","inc100125",0,"woman","single with dependent","someCollege"
+"white","inc100125",1,"woman","single with dependent","BA"
+"white","inc100125",0,"woman","single with dependent","grad"
+"black","inc100125",1,"woman","single with dependent","noHS"
+"black","inc100125",0,"woman","single with dependent","HS"
+"black","inc100125",0,"woman","single with dependent","someCollege"
+"black","inc100125",0,"woman","single with dependent","BA"
+"black","inc100125",0,"woman","single with dependent","grad"
+"latino","inc100125",0,"woman","single with dependent","noHS"
+"latino","inc100125",0,"woman","single with dependent","HS"
+"latino","inc100125",0,"woman","single with dependent","someCollege"
+"latino","inc100125",0,"woman","single with dependent","BA"
+"latino","inc100125",0,"woman","single with dependent","grad"
+"other","inc100125",0,"woman","single with dependent","noHS"
+"other","inc100125",0,"woman","single with dependent","HS"
+"other","inc100125",0,"woman","single with dependent","someCollege"
+"other","inc100125",0,"woman","single with dependent","BA"
+"other","inc100125",0,"woman","single with dependent","grad"
+"white","inc125150",0,"man","single","noHS"
+"white","inc125150",0,"man","single","HS"
+"white","inc125150",0,"man","single","someCollege"
+"white","inc125150",1,"man","single","BA"
+"white","inc125150",1,"man","single","grad"
+"black","inc125150",0,"man","single","noHS"
+"black","inc125150",0,"man","single","HS"
+"black","inc125150",0,"man","single","someCollege"
+"black","inc125150",0,"man","single","BA"
+"black","inc125150",0,"man","single","grad"
+"latino","inc125150",0,"man","single","noHS"
+"latino","inc125150",0,"man","single","HS"
+"latino","inc125150",0,"man","single","someCollege"
+"latino","inc125150",0,"man","single","BA"
+"latino","inc125150",0,"man","single","grad"
+"other","inc125150",0,"man","single","noHS"
+"other","inc125150",0,"man","single","HS"
+"other","inc125150",0,"man","single","someCollege"
+"other","inc125150",0,"man","single","BA"
+"other","inc125150",0,"man","single","grad"
+"white","inc125150",0,"woman","single","noHS"
+"white","inc125150",0,"woman","single","HS"
+"white","inc125150",0,"woman","single","someCollege"
+"white","inc125150",0,"woman","single","BA"
+"white","inc125150",1,"woman","single","grad"
+"black","inc125150",0,"woman","single","noHS"
+"black","inc125150",0,"woman","single","HS"
+"black","inc125150",0,"woman","single","someCollege"
+"black","inc125150",0,"woman","single","BA"
+"black","inc125150",0,"woman","single","grad"
+"latino","inc125150",0,"woman","single","noHS"
+"latino","inc125150",0,"woman","single","HS"
+"latino","inc125150",0,"woman","single","someCollege"
+"latino","inc125150",0,"woman","single","BA"
+"latino","inc125150",0,"woman","single","grad"
+"other","inc125150",0,"woman","single","noHS"
+"other","inc125150",0,"woman","single","HS"
+"other","inc125150",0,"woman","single","someCollege"
+"other","inc125150",0,"woman","single","BA"
+"other","inc125150",0,"woman","single","grad"
+"white","inc125150",0,"man","single with dependent","noHS"
+"white","inc125150",0,"man","single with dependent","HS"
+"white","inc125150",1,"man","single with dependent","someCollege"
+"white","inc125150",0,"man","single with dependent","BA"
+"white","inc125150",0,"man","single with dependent","grad"
+"black","inc125150",0,"man","single with dependent","noHS"
+"black","inc125150",0,"man","single with dependent","HS"
+"black","inc125150",0,"man","single with dependent","someCollege"
+"black","inc125150",0,"man","single with dependent","BA"
+"black","inc125150",0,"man","single with dependent","grad"
+"latino","inc125150",0,"man","single with dependent","noHS"
+"latino","inc125150",0,"man","single with dependent","HS"
+"latino","inc125150",0,"man","single with dependent","someCollege"
+"latino","inc125150",0,"man","single with dependent","BA"
+"latino","inc125150",0,"man","single with dependent","grad"
+"other","inc125150",0,"man","single with dependent","noHS"
+"other","inc125150",0,"man","single with dependent","HS"
+"other","inc125150",0,"man","single with dependent","someCollege"
+"other","inc125150",0,"man","single with dependent","BA"
+"other","inc125150",0,"man","single with dependent","grad"
+"white","inc125150",0,"woman","single with dependent","noHS"
+"white","inc125150",0,"woman","single with dependent","HS"
+"white","inc125150",1,"woman","single with dependent","someCollege"
+"white","inc125150",0,"woman","single with dependent","BA"
+"white","inc125150",0,"woman","single with dependent","grad"
+"black","inc125150",0,"woman","single with dependent","noHS"
+"black","inc125150",0,"woman","single with dependent","HS"
+"black","inc125150",0,"woman","single with dependent","someCollege"
+"black","inc125150",0,"woman","single with dependent","BA"
+"black","inc125150",0,"woman","single with dependent","grad"
+"latino","inc125150",0,"woman","single with dependent","noHS"
+"latino","inc125150",0,"woman","single with dependent","HS"
+"latino","inc125150",0,"woman","single with dependent","someCollege"
+"latino","inc125150",0,"woman","single with dependent","BA"
+"latino","inc125150",0,"woman","single with dependent","grad"
+"other","inc125150",0,"woman","single with dependent","noHS"
+"other","inc125150",0,"woman","single with dependent","HS"
+"other","inc125150",0,"woman","single with dependent","someCollege"
+"other","inc125150",1,"woman","single with dependent","BA"
+"other","inc125150",0,"woman","single with dependent","grad"
+"white","inc150200",0,"man","single","noHS"
+"white","inc150200",1,"man","single","HS"
+"white","inc150200",0,"man","single","someCollege"
+"white","inc150200",0,"man","single","BA"
+"white","inc150200",0,"man","single","grad"
+"black","inc150200",0,"man","single","noHS"
+"black","inc150200",0,"man","single","HS"
+"black","inc150200",0,"man","single","someCollege"
+"black","inc150200",0,"man","single","BA"
+"black","inc150200",0,"man","single","grad"
+"latino","inc150200",0,"man","single","noHS"
+"latino","inc150200",0,"man","single","HS"
+"latino","inc150200",0,"man","single","someCollege"
+"latino","inc150200",0,"man","single","BA"
+"latino","inc150200",0,"man","single","grad"
+"other","inc150200",0,"man","single","noHS"
+"other","inc150200",0,"man","single","HS"
+"other","inc150200",0,"man","single","someCollege"
+"other","inc150200",0,"man","single","BA"
+"other","inc150200",0,"man","single","grad"
+"white","inc150200",0,"woman","single","noHS"
+"white","inc150200",0,"woman","single","HS"
+"white","inc150200",1,"woman","single","someCollege"
+"white","inc150200",0,"woman","single","BA"
+"white","inc150200",0,"woman","single","grad"
+"black","inc150200",0,"woman","single","noHS"
+"black","inc150200",0,"woman","single","HS"
+"black","inc150200",0,"woman","single","someCollege"
+"black","inc150200",0,"woman","single","BA"
+"black","inc150200",0,"woman","single","grad"
+"latino","inc150200",0,"woman","single","noHS"
+"latino","inc150200",0,"woman","single","HS"
+"latino","inc150200",0,"woman","single","someCollege"
+"latino","inc150200",0,"woman","single","BA"
+"latino","inc150200",0,"woman","single","grad"
+"other","inc150200",0,"woman","single","noHS"
+"other","inc150200",0,"woman","single","HS"
+"other","inc150200",0,"woman","single","someCollege"
+"other","inc150200",0,"woman","single","BA"
+"other","inc150200",0,"woman","single","grad"
+"white","inc150200",0,"man","single with dependent","noHS"
+"white","inc150200",0,"man","single with dependent","HS"
+"white","inc150200",0,"man","single with dependent","someCollege"
+"white","inc150200",0,"man","single with dependent","BA"
+"white","inc150200",0,"man","single with dependent","grad"
+"black","inc150200",0,"man","single with dependent","noHS"
+"black","inc150200",0,"man","single with dependent","HS"
+"black","inc150200",0,"man","single with dependent","someCollege"
+"black","inc150200",0,"man","single with dependent","BA"
+"black","inc150200",0,"man","single with dependent","grad"
+"latino","inc150200",0,"man","single with dependent","noHS"
+"latino","inc150200",0,"man","single with dependent","HS"
+"latino","inc150200",0,"man","single with dependent","someCollege"
+"latino","inc150200",0,"man","single with dependent","BA"
+"latino","inc150200",0,"man","single with dependent","grad"
+"other","inc150200",1,"man","single with dependent","noHS"
+"other","inc150200",0,"man","single with dependent","HS"
+"other","inc150200",0,"man","single with dependent","someCollege"
+"other","inc150200",0,"man","single with dependent","BA"
+"other","inc150200",0,"man","single with dependent","grad"
+"white","inc150200",0,"woman","single with dependent","noHS"
+"white","inc150200",0,"woman","single with dependent","HS"
+"white","inc150200",1,"woman","single with dependent","someCollege"
+"white","inc150200",0,"woman","single with dependent","BA"
+"white","inc150200",0,"woman","single with dependent","grad"
+"black","inc150200",0,"woman","single with dependent","noHS"
+"black","inc150200",0,"woman","single with dependent","HS"
+"black","inc150200",0,"woman","single with dependent","someCollege"
+"black","inc150200",0,"woman","single with dependent","BA"
+"black","inc150200",0,"woman","single with dependent","grad"
+"latino","inc150200",0,"woman","single with dependent","noHS"
+"latino","inc150200",0,"woman","single with dependent","HS"
+"latino","inc150200",0,"woman","single with dependent","someCollege"
+"latino","inc150200",0,"woman","single with dependent","BA"
+"latino","inc150200",0,"woman","single with dependent","grad"
+"other","inc150200",0,"woman","single with dependent","noHS"
+"other","inc150200",0,"woman","single with dependent","HS"
+"other","inc150200",0,"woman","single with dependent","someCollege"
+"other","inc150200",0,"woman","single with dependent","BA"
+"other","inc150200",0,"woman","single with dependent","grad"
+"white","inc200300",0,"man","single","noHS"
+"white","inc200300",0,"man","single","HS"
+"white","inc200300",0,"man","single","someCollege"
+"white","inc200300",0,"man","single","BA"
+"white","inc200300",1,"man","single","grad"
+"black","inc200300",0,"man","single","noHS"
+"black","inc200300",0,"man","single","HS"
+"black","inc200300",0,"man","single","someCollege"
+"black","inc200300",0,"man","single","BA"
+"black","inc200300",0,"man","single","grad"
+"latino","inc200300",0,"man","single","noHS"
+"latino","inc200300",0,"man","single","HS"
+"latino","inc200300",0,"man","single","someCollege"
+"latino","inc200300",0,"man","single","BA"
+"latino","inc200300",0,"man","single","grad"
+"other","inc200300",0,"man","single","noHS"
+"other","inc200300",0,"man","single","HS"
+"other","inc200300",0,"man","single","someCollege"
+"other","inc200300",0,"man","single","BA"
+"other","inc200300",0,"man","single","grad"
+"white","inc200300",0,"woman","single","noHS"
+"white","inc200300",0,"woman","single","HS"
+"white","inc200300",0,"woman","single","someCollege"
+"white","inc200300",0,"woman","single","BA"
+"white","inc200300",0,"woman","single","grad"
+"black","inc200300",0,"woman","single","noHS"
+"black","inc200300",0,"woman","single","HS"
+"black","inc200300",0,"woman","single","someCollege"
+"black","inc200300",0,"woman","single","BA"
+"black","inc200300",0,"woman","single","grad"
+"latino","inc200300",0,"woman","single","noHS"
+"latino","inc200300",0,"woman","single","HS"
+"latino","inc200300",0,"woman","single","someCollege"
+"latino","inc200300",0,"woman","single","BA"
+"latino","inc200300",0,"woman","single","grad"
+"other","inc200300",0,"woman","single","noHS"
+"other","inc200300",0,"woman","single","HS"
+"other","inc200300",0,"woman","single","someCollege"
+"other","inc200300",0,"woman","single","BA"
+"other","inc200300",0,"woman","single","grad"
+"white","inc200300",0,"man","single with dependent","noHS"
+"white","inc200300",0,"man","single with dependent","HS"
+"white","inc200300",0,"man","single with dependent","someCollege"
+"white","inc200300",0,"man","single with dependent","BA"
+"white","inc200300",0,"man","single with dependent","grad"
+"black","inc200300",0,"man","single with dependent","noHS"
+"black","inc200300",0,"man","single with dependent","HS"
+"black","inc200300",0,"man","single with dependent","someCollege"
+"black","inc200300",0,"man","single with dependent","BA"
+"black","inc200300",0,"man","single with dependent","grad"
+"latino","inc200300",0,"man","single with dependent","noHS"
+"latino","inc200300",0,"man","single with dependent","HS"
+"latino","inc200300",0,"man","single with dependent","someCollege"
+"latino","inc200300",0,"man","single with dependent","BA"
+"latino","inc200300",0,"man","single with dependent","grad"
+"other","inc200300",0,"man","single with dependent","noHS"
+"other","inc200300",0,"man","single with dependent","HS"
+"other","inc200300",0,"man","single with dependent","someCollege"
+"other","inc200300",0,"man","single with dependent","BA"
+"other","inc200300",0,"man","single with dependent","grad"
+"white","inc200300",0,"woman","single with dependent","noHS"
+"white","inc200300",0,"woman","single with dependent","HS"
+"white","inc200300",0,"woman","single with dependent","someCollege"
+"white","inc200300",0,"woman","single with dependent","BA"
+"white","inc200300",0,"woman","single with dependent","grad"
+"black","inc200300",0,"woman","single with dependent","noHS"
+"black","inc200300",0,"woman","single with dependent","HS"
+"black","inc200300",0,"woman","single with dependent","someCollege"
+"black","inc200300",1,"woman","single with dependent","BA"
+"black","inc200300",0,"woman","single with dependent","grad"
+"latino","inc200300",0,"woman","single with dependent","noHS"
+"latino","inc200300",0,"woman","single with dependent","HS"
+"latino","inc200300",0,"woman","single with dependent","someCollege"
+"latino","inc200300",0,"woman","single with dependent","BA"
+"latino","inc200300",0,"woman","single with dependent","grad"
+"other","inc200300",0,"woman","single with dependent","noHS"
+"other","inc200300",0,"woman","single with dependent","HS"
+"other","inc200300",0,"woman","single with dependent","someCollege"
+"other","inc200300",0,"woman","single with dependent","BA"
+"other","inc200300",0,"woman","single with dependent","grad"
+"white","inc300400",0,"man","single","noHS"
+"white","inc300400",0,"man","single","HS"
+"white","inc300400",0,"man","single","someCollege"
+"white","inc300400",0,"man","single","BA"
+"white","inc300400",0,"man","single","grad"
+"black","inc300400",0,"man","single","noHS"
+"black","inc300400",0,"man","single","HS"
+"black","inc300400",0,"man","single","someCollege"
+"black","inc300400",0,"man","single","BA"
+"black","inc300400",0,"man","single","grad"
+"latino","inc300400",0,"man","single","noHS"
+"latino","inc300400",0,"man","single","HS"
+"latino","inc300400",0,"man","single","someCollege"
+"latino","inc300400",0,"man","single","BA"
+"latino","inc300400",0,"man","single","grad"
+"other","inc300400",0,"man","single","noHS"
+"other","inc300400",0,"man","single","HS"
+"other","inc300400",0,"man","single","someCollege"
+"other","inc300400",0,"man","single","BA"
+"other","inc300400",0,"man","single","grad"
+"white","inc300400",0,"woman","single","noHS"
+"white","inc300400",0,"woman","single","HS"
+"white","inc300400",0,"woman","single","someCollege"
+"white","inc300400",0,"woman","single","BA"
+"white","inc300400",0,"woman","single","grad"
+"black","inc300400",0,"woman","single","noHS"
+"black","inc300400",0,"woman","single","HS"
+"black","inc300400",0,"woman","single","someCollege"
+"black","inc300400",0,"woman","single","BA"
+"black","inc300400",0,"woman","single","grad"
+"latino","inc300400",0,"woman","single","noHS"
+"latino","inc300400",0,"woman","single","HS"
+"latino","inc300400",0,"woman","single","someCollege"
+"latino","inc300400",0,"woman","single","BA"
+"latino","inc300400",0,"woman","single","grad"
+"other","inc300400",0,"woman","single","noHS"
+"other","inc300400",0,"woman","single","HS"
+"other","inc300400",0,"woman","single","someCollege"
+"other","inc300400",0,"woman","single","BA"
+"other","inc300400",0,"woman","single","grad"
+"white","inc300400",0,"man","single with dependent","noHS"
+"white","inc300400",0,"man","single with dependent","HS"
+"white","inc300400",0,"man","single with dependent","someCollege"
+"white","inc300400",0,"man","single with dependent","BA"
+"white","inc300400",1,"man","single with dependent","grad"
+"black","inc300400",0,"man","single with dependent","noHS"
+"black","inc300400",0,"man","single with dependent","HS"
+"black","inc300400",0,"man","single with dependent","someCollege"
+"black","inc300400",0,"man","single with dependent","BA"
+"black","inc300400",0,"man","single with dependent","grad"
+"latino","inc300400",0,"man","single with dependent","noHS"
+"latino","inc300400",0,"man","single with dependent","HS"
+"latino","inc300400",0,"man","single with dependent","someCollege"
+"latino","inc300400",0,"man","single with dependent","BA"
+"latino","inc300400",0,"man","single with dependent","grad"
+"other","inc300400",0,"man","single with dependent","noHS"
+"other","inc300400",0,"man","single with dependent","HS"
+"other","inc300400",0,"man","single with dependent","someCollege"
+"other","inc300400",0,"man","single with dependent","BA"
+"other","inc300400",0,"man","single with dependent","grad"
+"white","inc300400",0,"woman","single with dependent","noHS"
+"white","inc300400",0,"woman","single with dependent","HS"
+"white","inc300400",0,"woman","single with dependent","someCollege"
+"white","inc300400",0,"woman","single with dependent","BA"
+"white","inc300400",0,"woman","single with dependent","grad"
+"black","inc300400",0,"woman","single with dependent","noHS"
+"black","inc300400",0,"woman","single with dependent","HS"
+"black","inc300400",0,"woman","single with dependent","someCollege"
+"black","inc300400",0,"woman","single with dependent","BA"
+"black","inc300400",0,"woman","single with dependent","grad"
+"latino","inc300400",0,"woman","single with dependent","noHS"
+"latino","inc300400",0,"woman","single with dependent","HS"
+"latino","inc300400",0,"woman","single with dependent","someCollege"
+"latino","inc300400",0,"woman","single with dependent","BA"
+"latino","inc300400",0,"woman","single with dependent","grad"
+"other","inc300400",0,"woman","single with dependent","noHS"
+"other","inc300400",0,"woman","single with dependent","HS"
+"other","inc300400",0,"woman","single with dependent","someCollege"
+"other","inc300400",0,"woman","single with dependent","BA"
+"other","inc300400",0,"woman","single with dependent","grad"
+"white","inc400",0,"man","single","noHS"
+"white","inc400",0,"man","single","HS"
+"white","inc400",0,"man","single","someCollege"
+"white","inc400",0,"man","single","BA"
+"white","inc400",1,"man","single","grad"
+"black","inc400",0,"man","single","noHS"
+"black","inc400",0,"man","single","HS"
+"black","inc400",0,"man","single","someCollege"
+"black","inc400",0,"man","single","BA"
+"black","inc400",0,"man","single","grad"
+"latino","inc400",0,"man","single","noHS"
+"latino","inc400",0,"man","single","HS"
+"latino","inc400",0,"man","single","someCollege"
+"latino","inc400",0,"man","single","BA"
+"latino","inc400",0,"man","single","grad"
+"other","inc400",0,"man","single","noHS"
+"other","inc400",0,"man","single","HS"
+"other","inc400",0,"man","single","someCollege"
+"other","inc400",0,"man","single","BA"
+"other","inc400",0,"man","single","grad"
+"white","inc400",0,"woman","single","noHS"
+"white","inc400",0,"woman","single","HS"
+"white","inc400",0,"woman","single","someCollege"
+"white","inc400",0,"woman","single","BA"
+"white","inc400",0,"woman","single","grad"
+"black","inc400",0,"woman","single","noHS"
+"black","inc400",0,"woman","single","HS"
+"black","inc400",0,"woman","single","someCollege"
+"black","inc400",0,"woman","single","BA"
+"black","inc400",0,"woman","single","grad"
+"latino","inc400",0,"woman","single","noHS"
+"latino","inc400",0,"woman","single","HS"
+"latino","inc400",0,"woman","single","someCollege"
+"latino","inc400",0,"woman","single","BA"
+"latino","inc400",0,"woman","single","grad"
+"other","inc400",0,"woman","single","noHS"
+"other","inc400",0,"woman","single","HS"
+"other","inc400",0,"woman","single","someCollege"
+"other","inc400",0,"woman","single","BA"
+"other","inc400",0,"woman","single","grad"
+"white","inc400",0,"man","single with dependent","noHS"
+"white","inc400",0,"man","single with dependent","HS"
+"white","inc400",0,"man","single with dependent","someCollege"
+"white","inc400",0,"man","single with dependent","BA"
+"white","inc400",0,"man","single with dependent","grad"
+"black","inc400",0,"man","single with dependent","noHS"
+"black","inc400",0,"man","single with dependent","HS"
+"black","inc400",0,"man","single with dependent","someCollege"
+"black","inc400",0,"man","single with dependent","BA"
+"black","inc400",0,"man","single with dependent","grad"
+"latino","inc400",0,"man","single with dependent","noHS"
+"latino","inc400",0,"man","single with dependent","HS"
+"latino","inc400",0,"man","single with dependent","someCollege"
+"latino","inc400",0,"man","single with dependent","BA"
+"latino","inc400",0,"man","single with dependent","grad"
+"other","inc400",0,"man","single with dependent","noHS"
+"other","inc400",0,"man","single with dependent","HS"
+"other","inc400",0,"man","single with dependent","someCollege"
+"other","inc400",0,"man","single with dependent","BA"
+"other","inc400",0,"man","single with dependent","grad"
+"white","inc400",0,"woman","single with dependent","noHS"
+"white","inc400",0,"woman","single with dependent","HS"
+"white","inc400",0,"woman","single with dependent","someCollege"
+"white","inc400",0,"woman","single with dependent","BA"
+"white","inc400",0,"woman","single with dependent","grad"
+"black","inc400",0,"woman","single with dependent","noHS"
+"black","inc400",0,"woman","single with dependent","HS"
+"black","inc400",0,"woman","single with dependent","someCollege"
+"black","inc400",0,"woman","single with dependent","BA"
+"black","inc400",0,"woman","single with dependent","grad"
+"latino","inc400",0,"woman","single with dependent","noHS"
+"latino","inc400",0,"woman","single with dependent","HS"
+"latino","inc400",0,"woman","single with dependent","someCollege"
+"latino","inc400",0,"woman","single with dependent","BA"
+"latino","inc400",0,"woman","single with dependent","grad"
+"other","inc400",0,"woman","single with dependent","noHS"
+"other","inc400",0,"woman","single with dependent","HS"
+"other","inc400",0,"woman","single with dependent","someCollege"
+"other","inc400",0,"woman","single with dependent","BA"
+"other","inc400",0,"woman","single with dependent","grad"
+"black","inc020",0,"man","couple","BA"
+"black","inc020",0,"woman","couple","BA"
+"black","inc020",0,"man","couple","grad"
+"black","inc020",0,"woman","couple","grad"
+"black","inc020",1,"man","couple","HS"
+"black","inc020",1,"woman","couple","HS"
+"black","inc020",1,"man","couple","noHS"
+"black","inc020",1,"woman","couple","noHS"
+"black","inc020",1,"man","couple","someCollege"
+"black","inc020",1,"woman","couple","someCollege"
+"latino","inc020",0,"man","couple","BA"
+"latino","inc020",0,"woman","couple","BA"
+"latino","inc020",0,"man","couple","grad"
+"latino","inc020",0,"woman","couple","grad"
+"latino","inc020",2,"man","couple","HS"
+"latino","inc020",2,"woman","couple","HS"
+"latino","inc020",3,"man","couple","noHS"
+"latino","inc020",3,"woman","couple","noHS"
+"latino","inc020",1,"man","couple","someCollege"
+"latino","inc020",1,"woman","couple","someCollege"
+"other","inc020",0,"man","couple","BA"
+"other","inc020",0,"woman","couple","BA"
+"other","inc020",0,"man","couple","grad"
+"other","inc020",0,"woman","couple","grad"
+"other","inc020",1,"man","couple","HS"
+"other","inc020",0,"woman","couple","HS"
+"other","inc020",0,"man","couple","noHS"
+"other","inc020",0,"woman","couple","noHS"
+"other","inc020",0,"man","couple","someCollege"
+"other","inc020",1,"woman","couple","someCollege"
+"white","inc020",1,"man","couple","BA"
+"white","inc020",2,"woman","couple","BA"
+"white","inc020",1,"man","couple","grad"
+"white","inc020",1,"woman","couple","grad"
+"white","inc020",4,"man","couple","HS"
+"white","inc020",6,"woman","couple","HS"
+"white","inc020",3,"man","couple","noHS"
+"white","inc020",1,"woman","couple","noHS"
+"white","inc020",3,"man","couple","someCollege"
+"white","inc020",2,"woman","couple","someCollege"
+"black","inc2040",0,"man","couple","BA"
+"black","inc2040",0,"woman","couple","BA"
+"black","inc2040",0,"man","couple","grad"
+"black","inc2040",0,"woman","couple","grad"
+"black","inc2040",3,"man","couple","HS"
+"black","inc2040",2,"woman","couple","HS"
+"black","inc2040",1,"man","couple","noHS"
+"black","inc2040",1,"woman","couple","noHS"
+"black","inc2040",1,"man","couple","someCollege"
+"black","inc2040",2,"woman","couple","someCollege"
+"latino","inc2040",1,"man","couple","BA"
+"latino","inc2040",0,"woman","couple","BA"
+"latino","inc2040",0,"man","couple","grad"
+"latino","inc2040",0,"woman","couple","grad"
+"latino","inc2040",3,"man","couple","HS"
+"latino","inc2040",4,"woman","couple","HS"
+"latino","inc2040",6,"man","couple","noHS"
+"latino","inc2040",5,"woman","couple","noHS"
+"latino","inc2040",1,"man","couple","someCollege"
+"latino","inc2040",2,"woman","couple","someCollege"
+"other","inc2040",0,"man","couple","BA"
+"other","inc2040",1,"woman","couple","BA"
+"other","inc2040",1,"man","couple","grad"
+"other","inc2040",0,"woman","couple","grad"
+"other","inc2040",0,"man","couple","HS"
+"other","inc2040",1,"woman","couple","HS"
+"other","inc2040",1,"man","couple","noHS"
+"other","inc2040",1,"woman","couple","noHS"
+"other","inc2040",1,"man","couple","someCollege"
+"other","inc2040",0,"woman","couple","someCollege"
+"white","inc2040",4,"man","couple","BA"
+"white","inc2040",3,"woman","couple","BA"
+"white","inc2040",1,"man","couple","grad"
+"white","inc2040",2,"woman","couple","grad"
+"white","inc2040",14,"man","couple","HS"
+"white","inc2040",15,"woman","couple","HS"
+"white","inc2040",6,"man","couple","noHS"
+"white","inc2040",4,"woman","couple","noHS"
+"white","inc2040",8,"man","couple","someCollege"
+"white","inc2040",9,"woman","couple","someCollege"
+"black","inc4060",1,"man","couple","BA"
+"black","inc4060",1,"woman","couple","BA"
+"black","inc4060",0,"man","couple","grad"
+"black","inc4060",0,"woman","couple","grad"
+"black","inc4060",1,"man","couple","HS"
+"black","inc4060",2,"woman","couple","HS"
+"black","inc4060",1,"man","couple","noHS"
+"black","inc4060",0,"woman","couple","noHS"
+"black","inc4060",2,"man","couple","someCollege"
+"black","inc4060",2,"woman","couple","someCollege"
+"latino","inc4060",0,"man","couple","BA"
+"latino","inc4060",1,"woman","couple","BA"
+"latino","inc4060",1,"man","couple","grad"
+"latino","inc4060",0,"woman","couple","grad"
+"latino","inc4060",3,"man","couple","HS"
+"latino","inc4060",3,"woman","couple","HS"
+"latino","inc4060",3,"man","couple","noHS"
+"latino","inc4060",3,"woman","couple","noHS"
+"latino","inc4060",2,"man","couple","someCollege"
+"latino","inc4060",2,"woman","couple","someCollege"
+"other","inc4060",1,"man","couple","BA"
+"other","inc4060",1,"woman","couple","BA"
+"other","inc4060",0,"man","couple","grad"
+"other","inc4060",0,"woman","couple","grad"
+"other","inc4060",1,"man","couple","HS"
+"other","inc4060",1,"woman","couple","HS"
+"other","inc4060",1,"man","couple","noHS"
+"other","inc4060",1,"woman","couple","noHS"
+"other","inc4060",0,"man","couple","someCollege"
+"other","inc4060",0,"woman","couple","someCollege"
+"white","inc4060",5,"man","couple","BA"
+"white","inc4060",5,"woman","couple","BA"
+"white","inc4060",3,"man","couple","grad"
+"white","inc4060",2,"woman","couple","grad"
+"white","inc4060",16,"man","couple","HS"
+"white","inc4060",14,"woman","couple","HS"
+"white","inc4060",2,"man","couple","noHS"
+"white","inc4060",3,"woman","couple","noHS"
+"white","inc4060",10,"man","couple","someCollege"
+"white","inc4060",12,"woman","couple","someCollege"
+"black","inc6080",0,"man","couple","BA"
+"black","inc6080",0,"woman","couple","BA"
+"black","inc6080",0,"man","couple","grad"
+"black","inc6080",0,"woman","couple","grad"
+"black","inc6080",3,"man","couple","HS"
+"black","inc6080",2,"woman","couple","HS"
+"black","inc6080",0,"man","couple","noHS"
+"black","inc6080",1,"woman","couple","noHS"
+"black","inc6080",1,"man","couple","someCollege"
+"black","inc6080",1,"woman","couple","someCollege"
+"latino","inc6080",1,"man","couple","BA"
+"latino","inc6080",1,"woman","couple","BA"
+"latino","inc6080",0,"man","couple","grad"
+"latino","inc6080",0,"woman","couple","grad"
+"latino","inc6080",3,"man","couple","HS"
+"latino","inc6080",3,"woman","couple","HS"
+"latino","inc6080",2,"man","couple","noHS"
+"latino","inc6080",2,"woman","couple","noHS"
+"latino","inc6080",2,"man","couple","someCollege"
+"latino","inc6080",2,"woman","couple","someCollege"
+"other","inc6080",1,"man","couple","BA"
+"other","inc6080",0,"woman","couple","BA"
+"other","inc6080",0,"man","couple","grad"
+"other","inc6080",1,"woman","couple","grad"
+"other","inc6080",1,"man","couple","HS"
+"other","inc6080",1,"woman","couple","HS"
+"other","inc6080",0,"man","couple","noHS"
+"other","inc6080",0,"woman","couple","noHS"
+"other","inc6080",1,"man","couple","someCollege"
+"other","inc6080",1,"woman","couple","someCollege"
+"white","inc6080",7,"man","couple","BA"
+"white","inc6080",9,"woman","couple","BA"
+"white","inc6080",4,"man","couple","grad"
+"white","inc6080",3,"woman","couple","grad"
+"white","inc6080",12,"man","couple","HS"
+"white","inc6080",10,"woman","couple","HS"
+"white","inc6080",2,"man","couple","noHS"
+"white","inc6080",1,"woman","couple","noHS"
+"white","inc6080",11,"man","couple","someCollege"
+"white","inc6080",13,"woman","couple","someCollege"
+"black","inc80100",1,"man","couple","BA"
+"black","inc80100",0,"woman","couple","BA"
+"black","inc80100",1,"man","couple","grad"
+"black","inc80100",1,"woman","couple","grad"
+"black","inc80100",0,"man","couple","HS"
+"black","inc80100",1,"woman","couple","HS"
+"black","inc80100",0,"man","couple","noHS"
+"black","inc80100",0,"woman","couple","noHS"
+"black","inc80100",1,"man","couple","someCollege"
+"black","inc80100",1,"woman","couple","someCollege"
+"latino","inc80100",1,"man","couple","BA"
+"latino","inc80100",1,"woman","couple","BA"
+"latino","inc80100",0,"man","couple","grad"
+"latino","inc80100",1,"woman","couple","grad"
+"latino","inc80100",1,"man","couple","HS"
+"latino","inc80100",1,"woman","couple","HS"
+"latino","inc80100",1,"man","couple","noHS"
+"latino","inc80100",0,"woman","couple","noHS"
+"latino","inc80100",1,"man","couple","someCollege"
+"latino","inc80100",1,"woman","couple","someCollege"
+"other","inc80100",1,"man","couple","BA"
+"other","inc80100",1,"woman","couple","BA"
+"other","inc80100",0,"man","couple","grad"
+"other","inc80100",1,"woman","couple","grad"
+"other","inc80100",1,"man","couple","HS"
+"other","inc80100",0,"woman","couple","HS"
+"other","inc80100",0,"man","couple","noHS"
+"other","inc80100",0,"woman","couple","noHS"
+"other","inc80100",1,"man","couple","someCollege"
+"other","inc80100",1,"woman","couple","someCollege"
+"white","inc80100",7,"man","couple","BA"
+"white","inc80100",8,"woman","couple","BA"
+"white","inc80100",3,"man","couple","grad"
+"white","inc80100",3,"woman","couple","grad"
+"white","inc80100",11,"man","couple","HS"
+"white","inc80100",8,"woman","couple","HS"
+"white","inc80100",1,"man","couple","noHS"
+"white","inc80100",2,"woman","couple","noHS"
+"white","inc80100",10,"man","couple","someCollege"
+"white","inc80100",11,"woman","couple","someCollege"
+"black","inc100125",1,"man","couple","BA"
+"black","inc100125",1,"woman","couple","BA"
+"black","inc100125",0,"man","couple","grad"
+"black","inc100125",0,"woman","couple","grad"
+"black","inc100125",0,"man","couple","HS"
+"black","inc100125",1,"woman","couple","HS"
+"black","inc100125",1,"man","couple","noHS"
+"black","inc100125",0,"woman","couple","noHS"
+"black","inc100125",1,"man","couple","someCollege"
+"black","inc100125",1,"woman","couple","someCollege"
+"latino","inc100125",1,"man","couple","BA"
+"latino","inc100125",0,"woman","couple","BA"
+"latino","inc100125",0,"man","couple","grad"
+"latino","inc100125",0,"woman","couple","grad"
+"latino","inc100125",1,"man","couple","HS"
+"latino","inc100125",1,"woman","couple","HS"
+"latino","inc100125",1,"man","couple","noHS"
+"latino","inc100125",1,"woman","couple","noHS"
+"latino","inc100125",0,"man","couple","someCollege"
+"latino","inc100125",1,"woman","couple","someCollege"
+"other","inc100125",0,"man","couple","BA"
+"other","inc100125",1,"woman","couple","BA"
+"other","inc100125",1,"man","couple","grad"
+"other","inc100125",1,"woman","couple","grad"
+"other","inc100125",1,"man","couple","HS"
+"other","inc100125",0,"woman","couple","HS"
+"other","inc100125",0,"man","couple","noHS"
+"other","inc100125",0,"woman","couple","noHS"
+"other","inc100125",1,"man","couple","someCollege"
+"other","inc100125",1,"woman","couple","someCollege"
+"white","inc100125",9,"man","couple","BA"
+"white","inc100125",7,"woman","couple","BA"
+"white","inc100125",5,"man","couple","grad"
+"white","inc100125",5,"woman","couple","grad"
+"white","inc100125",6,"man","couple","HS"
+"white","inc100125",7,"woman","couple","HS"
+"white","inc100125",1,"man","couple","noHS"
+"white","inc100125",2,"woman","couple","noHS"
+"white","inc100125",10,"man","couple","someCollege"
+"white","inc100125",10,"woman","couple","someCollege"
+"black","inc125150",0,"man","couple","BA"
+"black","inc125150",0,"woman","couple","BA"
+"black","inc125150",0,"man","couple","grad"
+"black","inc125150",1,"woman","couple","grad"
+"black","inc125150",1,"man","couple","HS"
+"black","inc125150",0,"woman","couple","HS"
+"black","inc125150",0,"man","couple","noHS"
+"black","inc125150",0,"woman","couple","noHS"
+"black","inc125150",1,"man","couple","someCollege"
+"black","inc125150",1,"woman","couple","someCollege"
+"latino","inc125150",0,"man","couple","BA"
+"latino","inc125150",1,"woman","couple","BA"
+"latino","inc125150",0,"man","couple","grad"
+"latino","inc125150",0,"woman","couple","grad"
+"latino","inc125150",1,"man","couple","HS"
+"latino","inc125150",0,"woman","couple","HS"
+"latino","inc125150",0,"man","couple","noHS"
+"latino","inc125150",0,"woman","couple","noHS"
+"latino","inc125150",1,"man","couple","someCollege"
+"latino","inc125150",1,"woman","couple","someCollege"
+"other","inc125150",1,"man","couple","BA"
+"other","inc125150",1,"woman","couple","BA"
+"other","inc125150",1,"man","couple","grad"
+"other","inc125150",0,"woman","couple","grad"
+"other","inc125150",0,"man","couple","HS"
+"other","inc125150",1,"woman","couple","HS"
+"other","inc125150",0,"man","couple","noHS"
+"other","inc125150",0,"woman","couple","noHS"
+"other","inc125150",0,"man","couple","someCollege"
+"other","inc125150",0,"woman","couple","someCollege"
+"white","inc125150",7,"man","couple","BA"
+"white","inc125150",6,"woman","couple","BA"
+"white","inc125150",4,"man","couple","grad"
+"white","inc125150",4,"woman","couple","grad"
+"white","inc125150",3,"man","couple","HS"
+"white","inc125150",4,"woman","couple","HS"
+"white","inc125150",1,"man","couple","noHS"
+"white","inc125150",0,"woman","couple","noHS"
+"white","inc125150",4,"man","couple","someCollege"
+"white","inc125150",5,"woman","couple","someCollege"
+"black","inc150200",1,"man","couple","BA"
+"black","inc150200",1,"woman","couple","BA"
+"black","inc150200",1,"man","couple","grad"
+"black","inc150200",1,"woman","couple","grad"
+"black","inc150200",0,"man","couple","HS"
+"black","inc150200",0,"woman","couple","HS"
+"black","inc150200",0,"man","couple","noHS"
+"black","inc150200",0,"woman","couple","noHS"
+"black","inc150200",0,"man","couple","someCollege"
+"black","inc150200",0,"woman","couple","someCollege"
+"latino","inc150200",1,"man","couple","BA"
+"latino","inc150200",0,"woman","couple","BA"
+"latino","inc150200",1,"man","couple","grad"
+"latino","inc150200",1,"woman","couple","grad"
+"latino","inc150200",0,"man","couple","HS"
+"latino","inc150200",1,"woman","couple","HS"
+"latino","inc150200",0,"man","couple","noHS"
+"latino","inc150200",0,"woman","couple","noHS"
+"latino","inc150200",0,"man","couple","someCollege"
+"latino","inc150200",0,"woman","couple","someCollege"
+"other","inc150200",0,"man","couple","BA"
+"other","inc150200",1,"woman","couple","BA"
+"other","inc150200",3,"man","couple","grad"
+"other","inc150200",2,"woman","couple","grad"
+"other","inc150200",0,"man","couple","HS"
+"other","inc150200",0,"woman","couple","HS"
+"other","inc150200",0,"man","couple","noHS"
+"other","inc150200",0,"woman","couple","noHS"
+"other","inc150200",1,"man","couple","someCollege"
+"other","inc150200",1,"woman","couple","someCollege"
+"white","inc150200",10,"man","couple","BA"
+"white","inc150200",7,"woman","couple","BA"
+"white","inc150200",3,"man","couple","grad"
+"white","inc150200",5,"woman","couple","grad"
+"white","inc150200",4,"man","couple","HS"
+"white","inc150200",3,"woman","couple","HS"
+"white","inc150200",0,"man","couple","noHS"
+"white","inc150200",0,"woman","couple","noHS"
+"white","inc150200",4,"man","couple","someCollege"
+"white","inc150200",6,"woman","couple","someCollege"
+"black","inc200300",0,"man","couple","BA"
+"black","inc200300",0,"woman","couple","BA"
+"black","inc200300",1,"man","couple","grad"
+"black","inc200300",1,"woman","couple","grad"
+"black","inc200300",0,"man","couple","HS"
+"black","inc200300",0,"woman","couple","HS"
+"black","inc200300",0,"man","couple","noHS"
+"black","inc200300",0,"woman","couple","noHS"
+"black","inc200300",0,"man","couple","someCollege"
+"black","inc200300",0,"woman","couple","someCollege"
+"latino","inc200300",0,"man","couple","BA"
+"latino","inc200300",0,"woman","couple","BA"
+"latino","inc200300",1,"man","couple","grad"
+"latino","inc200300",1,"woman","couple","grad"
+"latino","inc200300",0,"man","couple","HS"
+"latino","inc200300",0,"woman","couple","HS"
+"latino","inc200300",0,"man","couple","noHS"
+"latino","inc200300",0,"woman","couple","noHS"
+"latino","inc200300",0,"man","couple","someCollege"
+"latino","inc200300",0,"woman","couple","someCollege"
+"other","inc200300",1,"man","couple","BA"
+"other","inc200300",1,"woman","couple","BA"
+"other","inc200300",0,"man","couple","grad"
+"other","inc200300",0,"woman","couple","grad"
+"other","inc200300",0,"man","couple","HS"
+"other","inc200300",0,"woman","couple","HS"
+"other","inc200300",0,"man","couple","noHS"
+"other","inc200300",0,"woman","couple","noHS"
+"other","inc200300",0,"man","couple","someCollege"
+"other","inc200300",0,"woman","couple","someCollege"
+"white","inc200300",5,"man","couple","BA"
+"white","inc200300",7,"woman","couple","BA"
+"white","inc200300",6,"man","couple","grad"
+"white","inc200300",4,"woman","couple","grad"
+"white","inc200300",1,"man","couple","HS"
+"white","inc200300",1,"woman","couple","HS"
+"white","inc200300",0,"man","couple","noHS"
+"white","inc200300",0,"woman","couple","noHS"
+"white","inc200300",3,"man","couple","someCollege"
+"white","inc200300",3,"woman","couple","someCollege"
+"black","inc300400",0,"man","couple","BA"
+"black","inc300400",0,"woman","couple","BA"
+"black","inc300400",0,"man","couple","grad"
+"black","inc300400",0,"woman","couple","grad"
+"black","inc300400",0,"man","couple","HS"
+"black","inc300400",0,"woman","couple","HS"
+"black","inc300400",0,"man","couple","noHS"
+"black","inc300400",0,"woman","couple","noHS"
+"black","inc300400",0,"man","couple","someCollege"
+"black","inc300400",0,"woman","couple","someCollege"
+"latino","inc300400",0,"man","couple","BA"
+"latino","inc300400",1,"woman","couple","BA"
+"latino","inc300400",0,"man","couple","grad"
+"latino","inc300400",0,"woman","couple","grad"
+"latino","inc300400",0,"man","couple","HS"
+"latino","inc300400",0,"woman","couple","HS"
+"latino","inc300400",0,"man","couple","noHS"
+"latino","inc300400",0,"woman","couple","noHS"
+"latino","inc300400",1,"man","couple","someCollege"
+"latino","inc300400",0,"woman","couple","someCollege"
+"other","inc300400",0,"man","couple","BA"
+"other","inc300400",0,"woman","couple","BA"
+"other","inc300400",0,"man","couple","grad"
+"other","inc300400",0,"woman","couple","grad"
+"other","inc300400",0,"man","couple","HS"
+"other","inc300400",0,"woman","couple","HS"
+"other","inc300400",0,"man","couple","noHS"
+"other","inc300400",0,"woman","couple","noHS"
+"other","inc300400",0,"man","couple","someCollege"
+"other","inc300400",0,"woman","couple","someCollege"
+"white","inc300400",0,"man","couple","BA"
+"white","inc300400",0,"woman","couple","BA"
+"white","inc300400",2,"man","couple","grad"
+"white","inc300400",3,"woman","couple","grad"
+"white","inc300400",0,"man","couple","HS"
+"white","inc300400",0,"woman","couple","HS"
+"white","inc300400",0,"man","couple","noHS"
+"white","inc300400",0,"woman","couple","noHS"
+"white","inc300400",1,"man","couple","someCollege"
+"white","inc300400",0,"woman","couple","someCollege"
+"black","inc400",0,"man","couple","BA"
+"black","inc400",0,"woman","couple","BA"
+"black","inc400",0,"man","couple","grad"
+"black","inc400",0,"woman","couple","grad"
+"black","inc400",0,"man","couple","HS"
+"black","inc400",0,"woman","couple","HS"
+"black","inc400",0,"man","couple","noHS"
+"black","inc400",0,"woman","couple","noHS"
+"black","inc400",0,"man","couple","someCollege"
+"black","inc400",0,"woman","couple","someCollege"
+"latino","inc400",0,"man","couple","BA"
+"latino","inc400",0,"woman","couple","BA"
+"latino","inc400",0,"man","couple","grad"
+"latino","inc400",0,"woman","couple","grad"
+"latino","inc400",0,"man","couple","HS"
+"latino","inc400",0,"woman","couple","HS"
+"latino","inc400",0,"man","couple","noHS"
+"latino","inc400",0,"woman","couple","noHS"
+"latino","inc400",0,"man","couple","someCollege"
+"latino","inc400",0,"woman","couple","someCollege"
+"other","inc400",0,"man","couple","BA"
+"other","inc400",0,"woman","couple","BA"
+"other","inc400",1,"man","couple","grad"
+"other","inc400",1,"woman","couple","grad"
+"other","inc400",0,"man","couple","HS"
+"other","inc400",0,"woman","couple","HS"
+"other","inc400",0,"man","couple","noHS"
+"other","inc400",0,"woman","couple","noHS"
+"other","inc400",0,"man","couple","someCollege"
+"other","inc400",0,"woman","couple","someCollege"
+"white","inc400",2,"man","couple","BA"
+"white","inc400",1,"woman","couple","BA"
+"white","inc400",1,"man","couple","grad"
+"white","inc400",0,"woman","couple","grad"
+"white","inc400",0,"man","couple","HS"
+"white","inc400",1,"woman","couple","HS"
+"white","inc400",0,"man","couple","noHS"
+"white","inc400",0,"woman","couple","noHS"
+"white","inc400",0,"man","couple","someCollege"
+"white","inc400",1,"woman","couple","someCollege"
