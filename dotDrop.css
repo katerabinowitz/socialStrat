@@ -1,0 +1,23 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding:10px 150px 0 150px;
+}
+
+.xAxis, .yAxis, .legend{
+  font-size: 12px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #cccccc;
+  shape-rendering: crispEdges;
+}
+
+.xAxis path {
+  display:none;
+}
+
+.yAxis path {
+  stroke-width:2px;
+}

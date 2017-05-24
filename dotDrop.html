@@ -2,31 +2,26 @@
 <head>
 <meta charset="utf-8">
 
-<style>
-.axis {
-  font: 14px sans-serif;
-}
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #cccccc;
-  shape-rendering: crispEdges;
-}
-
-.xAxis path {
-  display: none;
-}
-</style>
+<link href='./dotDrop.css' rel='stylesheet' type='text/css'>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
+<h2> Social Stratification in the United States</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed justo consequat, suscipit risus eget, scelerisque leo. Quisque pretium ornare quam eget ultricies. Praesent molestie consectetur neque at accumsan. Aliquam imperdiet tincidunt mauris, tristique tincidunt nibh suscipit id. Sed nulla odio, ultricies nec sem et, eleifend mollis lacus. Mauris pretium volutpat arcu. Proin lacinia, purus a dignissim gravida, lacus felis rutrum sapien, vel dapibus velit dolor eu libero. Proin nec tortor rhoncus, imperdiet dui quis, placerat metus. Aenean odio nunc, venenatis sit amet faucibus in, aliquam sit amet ipsum. Morbi posuere felis eu massa tempus, et cursus lectus elementum. Pellentesque euismod, turpis id pellentesque posuere, ipsum massa vehicula neque, et sodales diam libero at enim. Nunc ornare dolor vel enim interdum, ut vehicula odio suscipit.</p>
 
+<p> Each 
+<svg height="12" width="12">
+  <circle cx="5" cy="5" r="3" stroke="gray" stroke-width="3" fill="gray" />
+</svg> is 200,000 people.
+</p>
+
+<p> How does income look across:
 <!-- Dropdown selection -->
 <select onchange="loadData()" id="metric">
   <option >Select a demographic factor</option>
@@ -36,6 +31,8 @@
   <option value="race">Race</option>
 </select>
 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+And this:
 <select onchange="loadData()" id="metric2">
   <option >Select a demographic factor</option>
   <option value="education">Education</option>
@@ -43,12 +40,13 @@
   <option value="gender">Gender</option>
   <option value="race">Race</option>
 </select>
+</p>
 
 
 <div id="DotMatrixChart"></div>
 
 <script>
-var radius = 2, 
+var radius = 3, 
     noOfCirclesInACol = 5,
     dotPadLeft = 3,
     dotPadRight = 3,
@@ -60,23 +58,23 @@ var radius = 2,
     margin = {top: radius*10, right: radius*15, bottom: radius*10, left: radius*20};
 
 
-height = (noOfCirclesInACol * 23) * (radius*2 + dotPadBottom + dotPadTop);
+height = (noOfCirclesInACol * 11) * (radius*2 + dotPadBottom + dotPadTop);
 width = (radius*3 + dotPadLeft + dotPadRight) * 50;
 
 var xScale = d3.scaleLinear().range([margin.left, width]),
     yScale = d3.scaleLinear().range([height, margin.bottom]);
       xScale.domain([0,45]);
-      yScale.domain([0,23]);
+      yScale.domain([0,11]);
 
-var incGroups = ["0-20","20-40","40-60","60-80","80-100","100-125","125-150","150-175","175-200","200-225","225-250",
-                 "250-275","275-300","300-325","325-350","350-375","375-400", "400-500","500-600","600-700","700-800","800-900","900+"];
+var incGroups = ["0-25","25-50","50-75","75-100","100-\n125","125-\n150","150-\n175","175-\n200","200-\n300","300-400","400+"];
 
 var formatInc = function(d) {
-    return incGroups[d % 24];      
+    return incGroups[d % 12];      
 }
 
 var yAxis = d3.axisLeft(yScale)
-              .tickFormat(formatInc);
+              .tickFormat(formatInc)
+              .tickSize(0);
 
 var svg = d3.select("#DotMatrixChart")
               .append("svg")
@@ -85,19 +83,17 @@ var svg = d3.select("#DotMatrixChart")
               .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 svg.append("g")
-        .attr("transform", "translate(" + (margin.left - (radius*2)) + ",0)")
-        .attr("class", "y axis")
+        .attr("transform", "translate(" + (margin.left - (radius * 2)) + ",0)")
+        .attr("class", "yAxis")
         .call(yAxis)
         .selectAll("text")
-        .attr("y", -radius*2)
-        .attr("x", "2em")
-        .attr("dy", ".35em")
-        .style("font-size", radius*3.5 + "px")
-        .attr("transform", "rotate(-90)")
+        .attr("y", -radius * 6)
+        .attr("x", "-2.5em")
+        .attr("dy", ".5em")
         .style("text-anchor", "middle");
 
 var loadData = function() {
-d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icons_filled.csv", function(error, csv_data) {
+d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/iconsFilled.csv", function(error, csv_data) {
   if (error) throw error;
 
 
@@ -221,7 +217,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icon
         if (d.dropdown2=="undefined") {
             if(iconN[d.income]!=0 && (iconN[d.income] % noOfCirclesInACol == 0)){
                 rowN[d.income] += 0.01;
-                yPosition[d.income] = incomeScale(d.income) + 0.05;
+                yPosition[d.income] = incomeScale(d.income) + 0.025;
             } 
             else {
                 yPosition[d.income] += 0.8/noOfCirclesInACol;
@@ -241,11 +237,11 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icon
             }
 
             if (counter==0) {
-                  yPosition[d.income] = incomeScale(d.income) + 0.05;
+                  yPosition[d.income] = incomeScale(d.income) + 0.025;
                   rowN[d.income] = dropdown2Scale(d.dropdown2);
             }
             else if  (counter!=0 && (counter % noOfCirclesInACol == 0 )) {
-                  yPosition[d.income] = incomeScale(d.income) + 0.05;
+                  yPosition[d.income] = incomeScale(d.income) + 0.025;
                   rowN[d.income] += 0.03;
             } 
             else {
@@ -268,7 +264,6 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icon
       .attr("y", -radius*5)
       .attr("x", 0)
       .attr("dy", ".35em")
-      .style("font-size", radius*3 + "px")
       .style("text-anchor", "start");
 
   svg.selectAll(".group").remove();
@@ -302,12 +297,12 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icon
       .enter()
       .append("g")
       .attr("class", "legend")
-      .attr("transform", "translate(" + 0  + "," + (margin.top+radius) + ")");
+      .attr("transform", "translate(" + 0  + "," + (margin.top - (radius * 5)) + ")");
 
   legend
       .append("circle")
-      .attr("cx", width + radius*4)
-      .attr("cy", function(d,i){return i*radius*4;})
+      .attr("cx", width - (radius * 7))
+      .attr("cy", function(d,i){return i * radius * 5;})
       .attr("r", radius)
       .style("fill", function(d) {
         if (d=="undefined") {
@@ -318,10 +313,9 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icon
 
   legend
       .append("text")
-      .attr("x", width + radius*4 + radius*3)
+      .attr("x", width - (radius * 5))
       .attr("text-anchor",'start')
-      .attr("y", function(d,i){return i*radius*4 + radius;})
-      .style("font-size", radius*3 + "px")
+      .attr("y", function(d,i){return (radius) + (i * radius * 5);})
       .text(function(d){
         if (d=="undefined") {
           return "";
