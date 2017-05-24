@@ -44,6 +44,9 @@ And this:
 
 
 <div id="DotMatrixChart"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed justo consequat, suscipit risus eget, scelerisque leo. Quisque pretium ornare quam eget ultricies. Praesent molestie consectetur neque at accumsan. Aliquam imperdiet tincidunt mauris, tristique tincidunt nibh suscipit id. Sed nulla odio, ultricies nec sem et, eleifend mollis lacus. Mauris pretium volutpat arcu. Proin lacinia, purus a dignissim gravida, lacus felis rutrum sapien, vel dapibus velit dolor eu libero. Proin nec tortor rhoncus, imperdiet dui quis, placerat metus. Aenean odio nunc, venenatis sit amet faucibus in, aliquam sit amet ipsum. Morbi posuere felis eu massa tempus, et cursus lectus elementum. Pellentesque euismod, turpis id pellentesque posuere, ipsum massa vehicula neque, et sodales diam libero at enim. Nunc ornare dolor vel enim interdum, ut vehicula odio suscipit.</p>
+</body>
+</html>
 
 <script>
 var radius = 3, 
@@ -55,7 +58,7 @@ var radius = 3,
 
     color =  d3.scaleOrdinal(d3.schemeDark2),
 
-    margin = {top: radius*10, right: radius*15, bottom: radius*10, left: radius*20};
+    margin = {top: radius*10, right: radius*15, bottom: radius*5, left: radius*30};
 
 
 height = (noOfCirclesInACol * 11) * (radius*2 + dotPadBottom + dotPadTop);
@@ -91,6 +94,15 @@ svg.append("g")
         .attr("x", "-2.5em")
         .attr("dy", ".5em")
         .style("text-anchor", "middle");
+
+  svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0)
+      .attr("x",0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Household Income ($ thousands)");
+
 
 var loadData = function() {
 d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/iconsFilled.csv", function(error, csv_data) {
@@ -332,5 +344,4 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icon
 }
 
 loadData()
-
 </script>
