@@ -53,7 +53,9 @@ icons <- rbind(iconsLoSub, iconsHi) %>%
                 education = factor(education, levels = c("No High School", "High School", "Some College", "Bachelor's Degree","Graduate Degree")),
                 familyType = factor(familyType, levels = c("Single", "Single with Dependent(s)", "Couple")),
                 race = factor(race, levels = c("White","Latino", "Black", "Other")), 
-                gender = factor(gender, levels = c("Woman","Man")))
+                gender = factor(gender, levels = c("Woman","Man"))) %>%
+                
+                arrange(income, gender, familyType, education)
 
 #completed data file
 write.csv(icons,"iconsFilled.csv", row.names=FALSE)
