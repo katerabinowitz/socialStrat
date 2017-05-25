@@ -4,7 +4,7 @@ body {
 }
 
 .xAxis, .yAxis, .legend{
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .axis path,

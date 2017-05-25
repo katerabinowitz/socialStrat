@@ -48,7 +48,7 @@ icons <- rbind(iconsLoSub, iconsHi) %>%
                 race = ifelse(race == "white", "White", 
                           ifelse(race == "black", "Black", 
                             ifelse(race == "latino", "Latino", "Other"))),
-                gender = ifelse(gender == "women", "Woman", "Man"),
+                gender = ifelse(gender == "woman", "Woman", "Man"),
                 
                 education = factor(education, levels = c("No High School", "High School", "Some College", "Bachelor's Degree","Graduate Degree")),
                 familyType = factor(familyType, levels = c("Single", "Single with Dependent(s)", "Couple")),
