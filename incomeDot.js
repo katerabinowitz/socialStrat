@@ -10,7 +10,7 @@ var radius = 2,
     margin = {top: radius*10, right: radius*15, bottom: radius*5, left: radius*35};
 
 
-height = (noOfCirclesInACol * 17) * (radius*2 + dotPadBottom + dotPadTop);
+height = (noOfCirclesInACol * 17) * (radius*1.5 + dotPadBottom + dotPadTop);
 width = (radius*4 + dotPadLeft + dotPadRight) * 50;
 
 var xScale = d3.scaleLinear().range([margin.left, width]),
@@ -259,7 +259,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
       .enter()
       .append("g")
       .attr("class", "legend")
-      .attr("transform", "translate(" + -20  + "," + ((height-margin.bottom-margin.top)/2) + ")");
+      .attr("transform", "translate(" + -20  + "," + (((height-margin.bottom-margin.top)/2) - ((height-margin.bottom-margin.top)/4)) + ")");
 
   legend
       .append("circle")
