@@ -36,7 +36,7 @@ iconsHi<-read.csv("iconsFilledHi.csv", stringsAsFactors = FALSE)
 iconsLoSub <- iconsLo %>% subset(!(income %in% c("inc200300","inc300400","inc400+")))
 
 icons <- rbind(iconsLoSub, iconsHi) %>%
-         mutate(income = factor(income, levels = c("inc400+", "inc375400", "inc350375", "inc325250", "inc300325", "inc275300", "inc250275", "inc225250", 
+         mutate(income = factor(income, levels = c("inc400+", "inc375400", "inc350375", "inc325350", "inc300325", "inc275300", "inc250275", "inc225250", 
                                                    "inc200225", "inc175200", "inc150175", "inc125150", "inc100125", "inc75100", "inc5075", "inc2550", "inc025")),
                 #ugh
                 education = ifelse(education == "noHS", "No High School",

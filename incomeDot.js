@@ -55,7 +55,7 @@ svg.append("g")
 
 
 var loadData = function() {
-d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/iconsFilled.csv", function(error, csv_data) {
+d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data/iconsFilled.csv", function(error, csv_data) {
   if (error) throw error;
 
 
