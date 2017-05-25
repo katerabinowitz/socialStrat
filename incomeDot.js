@@ -7,7 +7,7 @@ var radius = 2,
 
     color =  d3.scaleOrdinal(d3.schemeDark2),
 
-    margin = {top: radius*10, right: radius*15, bottom: radius*5, left: radius*30};
+    margin = {top: radius*10, right: radius*15, bottom: radius*5, left: radius*35};
 
 
 height = (noOfCirclesInACol * 17) * (radius*2 + dotPadBottom + dotPadTop);
@@ -26,6 +26,7 @@ var formatInc = function(d) {
 
 var yAxis = d3.axisLeft(yScale)
               .tickFormat(formatInc)
+              .ticks(17)
               .tickSize(0);
 
 var svg = d3.select("#DotMatrixChart")
@@ -39,14 +40,14 @@ svg.append("g")
         .attr("class", "yAxis")
         .call(yAxis)
         .selectAll("text")
-        .attr("y", -radius * 6)
-        .attr("x", "-2.5em")
-        .attr("dy", ".5em")
-        .style("text-anchor", "middle");
+        .attr("y", -radius * 7)
+        .attr("x", "-0.1em")
+        .attr("dy", "0.5em")
+        .style("text-anchor", "end");
 
   svg.append("text")
       .attr("transform", "rotate(-90)")
-      .attr("y", 0)
+      .attr("y", -4)
       .attr("x",0 - (height / 2))
       .attr("dy", "1em")
       .style("text-anchor", "middle")
@@ -258,13 +259,14 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icon
       .enter()
       .append("g")
       .attr("class", "legend")
-      .attr("transform", "translate(" + 0  + "," + (margin.top - (radius * 5)) + ")");
+      .attr("transform", "translate(" + -20  + "," + ((height-margin.bottom-margin.top)/2) + ")");
 
   legend
       .append("circle")
       .attr("cx", width - (radius * 7))
-      .attr("cy", function(d,i){return i * radius * 5;})
-      .attr("r", radius)
+      .attr("cy", function(d,i){return i * radius * 8;})
+      .attr("r", 3)
+      .attr("data-style-padding", 10)
       .style("fill", function(d) {
         if (d=="undefined") {
           return "#FFFFFF";
@@ -276,7 +278,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/icon
       .append("text")
       .attr("x", width - (radius * 5))
       .attr("text-anchor",'start')
-      .attr("y", function(d,i){return (radius) + (i * radius * 5);})
+      .attr("y", function(d,i){return (radius*2) + (i * radius * 8);})
       .text(function(d){
         if (d=="undefined") {
           return "";
