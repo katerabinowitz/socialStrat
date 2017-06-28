@@ -1,11 +1,12 @@
-body {
+body, #metric, #metric2, #DotMatrixChart{
   font-family: 'Lato', sans-serif;
   color: #333333;
-  padding:10px 150px 0 150px;
+  padding:10px 100px 0 150px;
+  font-size: 16px;
 }
 
 .xAxis, .yAxis, .legend{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .axis path,
