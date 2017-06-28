@@ -294,7 +294,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
 
   circleArray.exit().remove();
   circleArray.enter()
-      .append('g')
+      .append("g")
       .attr("class", "circleArray")
 
       .append("circle")
@@ -309,12 +309,12 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
         {
         var active   = circleArray.active ? false : true,
         newOpacity = active ? 0.1 : 1;
-          d3.selectAll('.circleArray').style("opacity", newOpacity);
+          d3.selectAll(".circleArray").style("opacity", newOpacity);
         circleArray.active = active;
 
         var active2   = circleLabel.active ? true : false,
         newOpacity2 = active ? 1 : 0;
-          d3.selectAll('.circleLabel').style("opacity", newOpacity2);
+          d3.selectAll(".circleLabel").style("opacity", newOpacity2);
         circleLabel.active = active2;
       });
 
@@ -343,7 +343,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
   legend
       .append("text")
       .attr("x", width + 20)
-      .attr("text-anchor",'start')
+      .attr("text-anchor","start")
       .attr("class", "legendText")
       .attr("y", function(d,i){return (i * radius * 15) + 5;})
       .text(function(d){
@@ -374,11 +374,11 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
     .selectAll(".Xlabel")
     .data(unqX)
     .enter()
-    .append('text')
-    .attr('class', 'Xlabel')
-    .attr('x', function(d) {return xScale(d.x)})
-    .attr('y', 12)
-    .style('text-anchor','right')
+    .append("text")
+    .attr("class", "Xlabel")
+    .attr("x", function(d) {return xScale(d.x)})
+    .attr("y", 12)
+    .style("text-anchor","right")
     .text(function(d){
       if (d.dropdown2 === "undefined") {
         return "";
@@ -421,21 +421,21 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
     .selectAll("rect")
     .data(circleData)
     .enter()
-    .append('text')
-    .attr('class', 'circleLabel')
-    .attr('x', function(d) {return xScale(d.x)})
-    .attr('y', function(d) {return yScale(d.y)})
+    .append("text")
+    .attr("class", "circleLabel")
+    .attr("x", function(d) {return xScale(d.x)})
+    .attr("y", function(d) {return yScale(d.y)})
     .text(function(d){return d.total})
-    .style('text-anchor','right')
-    .style("fill",function(d){return color(d.dropdown);})
-    .style('opacity', 0);
+    .style("text-anchor","right")
+    .style("fill", function(d){return color(d.dropdown);})
+    .style("opacity", 0);
 
 
 // wrapping text, courtesy https://bl.ocks.org/ericsoco/647db6ebadd4f4756cae, with a couple changes 
   function wrap (text) {
     text.each(function() {
 
-    var breakChars = ['/', '&', '-'],
+    var breakChars = ["/", "&", "-"],
       text = d3.select(this),
       textContent = text.text(),
       spanContent;
@@ -449,10 +449,10 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
       line = [],
       lineNumber = 0,
       lineHeight = 1.1,
-      x = text.attr('x'),
-      y = text.attr('y'),
-      dy = parseFloat(text.attr('dy') || 0),
-      tspan = text.text(null).append('tspan').attr('x', x).attr('y', y).attr('dy', dy + 'em');
+      x = text.attr("x"),
+      y = text.attr("y"),
+      dy = parseFloat(text.attr("dy") || 0),
+      tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
 
     while (word = words.pop()) {
       line.push(word);
@@ -465,7 +465,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
         });
         tspan.text(spanContent);
         line = [word];
-        tspan = text.append('tspan').attr('x', x).attr('y', y).attr('dy', ++lineNumber * lineHeight + dy + 'em').text(word);
+        tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
       }
     }
   }) };
