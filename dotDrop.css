@@ -5,6 +5,12 @@ body, #metric, #metric2, #DotMatrixChart{
   font-size: 16px;
 }
 
+.source {
+  font-size: 12px;
+  color: #666666;
+  padding-left: 10px;
+}
+
 .xAxis, .yAxis, .legend{
   font-size: 14px;
 }
