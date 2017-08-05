@@ -19,10 +19,20 @@
 
 <body>
 <h2> Social Stratification in the United States</h2>
-<p style="padding-left: 20px;">Income inequality is at its highest point in recent history, and awareness of the issue is growing proportionally. The below visualization shows how groups of Americans are faring in terms of several social indicators. Much of this information is discussed in classrooms and the media. However, the numbers, percentages, and median figures can be confusing and hard to relate to one another. This visualization attempts to overcome this problem by presenting the data all together across income, education, gender, and household type. More in-depth visuals and analysis can be found in <a href="http://thenewpress.com/books/social-stratification-united-states" target="_blank" style="color:#1b9e77;">Social Stratification in the United States: The American Profile Poster.</a>
+<p class="lead">Income inequality is at its highest point in recent history, and awareness of the issue is growing proportionally.</p>
+
+<p class="intro">The below visualization shows how groups of Americans are faring in terms of several social indicators. Much of this information is discussed in classrooms and the media. However, the numbers, percentages, and median figures can be confusing and hard to relate to one another. This visualization attempts to overcome this problem by presenting the data all together across income, education, gender, and household type. More in-depth visuals and analysis can be found in <a href="http://thenewpress.com/books/social-stratification-united-states" target="_blank" style="color:#1b9e77;">Social Stratification in the United States: The American Profile Poster.</a>
 <br><br>
 
 The visualization below shows the number of Americans in each income group.
+Each
+<svg height="12" width="12">
+  <circle cx="5" cy="5" r="3" stroke="#1b9e77" stroke-width="3" fill="#1b9e77"/>
+</svg> is 200,000 people.
+<br><br>
+
+Click on any dot to show the count across all shown categories. Click again to return back to the graphic.
+<br><br>
 
 Select a demographic factor from the dropdowns below to see how income breaks down across those different groups of Americans. The first dropdown changes the color of the circles; the second rearranges them.
 
@@ -32,34 +42,26 @@ For example, if you pick education in the first dropdown and education in the se
 
 <br><br>
 
-Each
-<svg height="12" width="12">
-  <circle cx="5" cy="5" r="3" stroke="gray" stroke-width="3" fill="gray"/>
-</svg> is 200,000 people.
-<br><br>
+See how income looks across:&nbsp;&nbsp;
 
-Click on any dot to show the count across all shown categories. Click again to return back to the graphic.</p> 
-
-<p>See how income looks across:
 <select onchange="loadData()" id="metric">
-  <option >Select a demographic factor</option>
+  <option selected disabled hidden>Select a demographic factor</option>
   <option value="education">Education</option>
   <option value="familyType">Family Type</option>
   <option value="gender">Gender</option>
   <option value="race">Race</option>
 </select>
 
-and:
+&nbsp;&nbsp; and &nbsp;&nbsp;
+
 <select onchange="loadData()" id="metric2">
-  <option >Select a demographic factor</option>
+  <option selected="selected">Select a demographic factor</option>
   <option value="education">Education</option>
   <option value="familyType">Family Type</option>
   <option value="gender">Gender</option>
   <option value="race">Race</option>
 </select>
 </p>
-
-
 
 <div id="DotMatrixChart"></div>
 <script src="./incomeDot.js"></script>

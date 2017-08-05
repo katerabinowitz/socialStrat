@@ -1,4 +1,4 @@
-var radius = 3, 
+const radius = 3, 
     noOfCirclesInACol = 5,
 
     color =  d3.scaleOrdinal(d3.schemeDark2),
@@ -9,11 +9,11 @@ var radius = 3,
     width = (radius * 230) - margin.left - margin.right;
 
 
-var xScale = d3.scaleLinear().range([margin.left, width]),
+const xScale = d3.scaleLinear().range([margin.left, width]),
     yScale = d3.scaleLinear().range([height, margin.bottom]);
     yScale.domain([0,17]);
 
-var incGroups = ["0-25","25-50","50-75","75-100","100-125","125-150","150-175","175-200","200-225","225-250","250-275", "275-300", "300-325", "325-350", "350-375", "375-400", "400+"];
+const incGroups = ["0-25","25-50","50-75","75-100","100-125","125-150","150-175","175-200","200-225","225-250","250-275", "275-300", "300-325", "325-350", "350-375", "375-400", "400+"];
 
 var formatInc = function(d) {
     return incGroups[d % 18];      
@@ -330,7 +330,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
 
   legend
       .append("circle")
-      .attr("cx", width + 15)
+      .attr("cx", width - 30)
       .attr("cy", function(d,i){return i * radius * 15;})
       .attr("r", 3)
       .style("fill", function(d) {
@@ -342,7 +342,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
 
   legend
       .append("text")
-      .attr("x", width + 20)
+      .attr("x", width - 25)
       .attr("text-anchor","start")
       .attr("class", "legendText")
       .attr("y", function(d,i){return (i * radius * 15) + 5;})
@@ -357,7 +357,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
       
 
 // Position and create x axis labels for when dropdown2 is selected
-  first=[];
+  var first=[];
   for (i = 0; i < circleArray._enter.length - 1; i++) {
     if (circleArray._enter[i][0] != undefined && 
        (i % unqDropdown.length === 0 || circleArray._enter[i][0].__data__.dropdown === circleArray._enter[i][0].__data__.dropdown2)) {

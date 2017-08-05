@@ -1,8 +1,51 @@
-body, #metric, #metric2, #DotMatrixChart{
-  font-family: 'Lato', sans-serif;
-  color: #333333;
-  padding:10px 100px 0 150px;
+body {
+  padding:10px 10% 0 10%;
   font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #282828;
+}
+
+.lead, .intro, #DotMatrixChart {
+  padding: 0 2%;
+}
+
+
+h2 {
+  font-size: 48px;
+  color: #282828;
+  line-height: 1;
+}
+
+.lead {
+  font-family: lucida grande,arial;
+  font-size: 24px;
+  color: #5E8CDB;
+}
+
+#metric, #metric2 {
+   height: 32px;
+   overflow: hidden;
+
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+
+   background-color: #d9d9d9; 
+   width: 220px;
+}
+
+select {
+  background: transparent;
+  border: none;
+  height: 32px;
+  width: 100%;
+
+  text-indent: 1px;
+  text-overflow: '';
+
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #282828;
 }
 
 .source {
@@ -13,6 +56,8 @@ body, #metric, #metric2, #DotMatrixChart{
 
 .xAxis, .yAxis, .legend{
   font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #282828;
 }
 
 .axis path,
@@ -29,3 +74,4 @@ body, #metric, #metric2, #DotMatrixChart{
 .yAxis path {
   stroke-width:1px;
 }
+
