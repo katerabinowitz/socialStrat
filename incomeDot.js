@@ -1,7 +1,7 @@
 const radius = 3, 
     noOfCirclesInACol = 5,
 
-    color =  d3.scaleOrdinal(d3.schemeDark2),
+    color =  d3.scaleOrdinal(['#1b9e77','#d95f02','#7570b3','#e7298a','#66a61e','#e6ab02','#a6761d','#666666']),
 
     margin = {top: 5, right: 5, bottom: 25, left: 80}
 
