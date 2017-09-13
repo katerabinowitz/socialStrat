@@ -440,7 +440,7 @@ d3.csv("https://raw.githubusercontent.com/katerabinowitz/socialStrat/master/data
       textContent = text.text(),
       spanContent;
 
-    breakChars.forEach(char => {
+    breakChars.forEach(function(char) {
       textContent = textContent.replace(char, char + ' ');
     });
 
